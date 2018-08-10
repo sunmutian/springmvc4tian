@@ -6,7 +6,12 @@
 
     <groupId>com.tian</groupId>
     <artifactId>TianSpringMVC</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>design-pattern</module>
+        <module>mvc</module>
+    </modules>
 
     <name>TianSpringMVC</name>
     <!-- FIXME change it to the project's website -->

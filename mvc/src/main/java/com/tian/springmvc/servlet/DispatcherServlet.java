@@ -2,6 +2,8 @@ package com.tian.springmvc.servlet;
 
 import com.tian.springmvc.annotation.*;
 import com.tian.springmvc.controller.DemoController;
+import com.tian.springmvc.controller.LoginController;
+import com.tian.springmvc.controller.RegisterController;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -72,10 +74,9 @@ public class DispatcherServlet extends HttpServlet {
         if (method != null) {
             String packageName = methodStringMap.get(method);
             String controllerName = nameMap.get(packageName);
-            DemoController demoController = (DemoController) instanceMap.get(controllerName);
             method.setAccessible(true);
             try {
-                Object result = method.invoke(demoController);
+                Object result = method.invoke(instanceMap.get(controllerName));
                 resp.setCharacterEncoding("utf-8");
                 PrintWriter out = resp.getWriter();
                 out.println(result);

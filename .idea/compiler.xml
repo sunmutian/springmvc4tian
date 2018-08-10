@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TianSpringMVC" />
+        <module name="design-pattern" />
+        <module name="mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TianSpringMVC" target="1.8" />
+      <module name="design-pattern" target="1.8" />
+      <module name="mvc" target="1.8" />
+      <module name="TianSpringMVC" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

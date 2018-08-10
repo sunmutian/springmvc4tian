@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TianSpringMVC.iml" filepath="$PROJECT_DIR$/TianSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TianSpringMVC.iml" filepath="$PROJECT_DIR$/TianSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
     </modules>
   </component>
 </project>
