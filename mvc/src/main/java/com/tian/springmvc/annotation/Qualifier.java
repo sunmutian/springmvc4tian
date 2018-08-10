@@ -1,6 +1,5 @@
 package com.tian.springmvc.annotation;
 
-import javax.annotation.Resources;
 import java.lang.annotation.*;
 
 /**
