@@ -1,4 +1,4 @@
-package com.tian.pattern.singleton;
+package com.tian.pattern.template;
 
 /**
  * 模模板类
