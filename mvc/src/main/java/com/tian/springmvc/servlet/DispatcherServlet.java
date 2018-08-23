@@ -50,7 +50,7 @@ public class DispatcherServlet extends HttpServlet {
      */
     private Map<String, String> nameMap = new HashMap<>();
     /**
-     * url映射method
+     * key=url value=method
      */
     private Map<String, Method> urlMethodMap = new HashMap<>();
     /**
