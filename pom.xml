@@ -12,6 +12,7 @@
         <module>design-pattern</module>
         <module>mvc</module>
         <module>tdubbo</module>
+        <module>sk-system</module>
     </modules>
 
     <name>TianSpringMVC</name>
