@@ -11,6 +11,7 @@
         <module name="design-pattern" />
         <module name="mvc" />
         <module name="provider" />
+        <module name="sk-system" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="dubbo" target="1.7" />
       <module name="mvc" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="sk-system" target="1.8" />
       <module name="tdubbo" target="1.7" />
       <module name="TianSpringMVC" target="1.7" />
     </bytecodeTargetLevel>
