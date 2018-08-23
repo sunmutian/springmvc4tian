@@ -11,6 +11,7 @@
     <modules>
         <module>design-pattern</module>
         <module>mvc</module>
+        <module>tdubbo</module>
     </modules>
 
     <name>TianSpringMVC</name>
