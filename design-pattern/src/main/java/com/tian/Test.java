@@ -14,5 +14,7 @@ public class Test {
         for (String s:list){
             System.out.println(s.length());
         }
+
+
     }
 }
