@@ -12,15 +12,18 @@
         <module name="mvc" />
         <module name="provider" />
         <module name="sk-system" />
+        <module name="spring-boot-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="design-pattern" target="1.8" />
+      <module name="lawt-web" target="1.7" />
       <module name="mvc" target="1.8" />
       <module name="provider" target="1.8" />
       <module name="sk-system" target="1.8" />
+      <module name="spring-boot-demo" target="1.8" />
       <module name="tdubbo" target="1.7" />
       <module name="TianSpringMVC" target="1.7" />
     </bytecodeTargetLevel>
