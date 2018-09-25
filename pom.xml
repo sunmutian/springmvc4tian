@@ -15,6 +15,7 @@
         <module>sk-system</module>
         <module>spring-boot-demo</module>
         <module>custom-spring</module>
+        <module>data-structure</module>
     </modules>
 
     <name>lawt-web</name>
