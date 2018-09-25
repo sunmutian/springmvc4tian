@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 测试自定义spring schema
  */
-public class App {
+public class AppMain {
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/xml/application.xml");
         People p = (People) ctx.getBean("lawt");
