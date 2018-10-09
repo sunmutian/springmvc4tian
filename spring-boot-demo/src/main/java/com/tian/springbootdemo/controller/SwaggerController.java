@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(description = "用户接口",value = "my swagger")
 @RestController
 @RequestMapping("/demoController")
-public class DemoController {
+public class SwaggerController {
 
     @ApiOperation(value = "新增用户" ,  notes="新增注册")
     @RequestMapping(value="/createUser",method= RequestMethod.POST,consumes= MediaType.APPLICATION_JSON_VALUE)
