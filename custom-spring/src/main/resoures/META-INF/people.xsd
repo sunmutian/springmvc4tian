@@ -6,13 +6,24 @@
         targetNamespace="http://study.163.com/u/ykt1461577211836/schema/people"
         elementFormDefault="qualified"
         attributeFormDefault="unqualified">
-    <xsd:import namespace="http://www.springframework.org/schema/beans" />
+    <xsd:import namespace="http://www.springframework.org/schema/beans"/>
     <xsd:element name="people">
         <xsd:complexType>
             <xsd:complexContent>
                 <xsd:extension base="beans:identifiedType">
-                    <xsd:attribute name="name" type="xsd:string" />
-                    <xsd:attribute name="age" type="xsd:int" />
+                    <xsd:attribute name="name" type="xsd:string"/>
+                    <xsd:attribute name="age" type="xsd:int"/>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="student">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="beans:identifiedType">
+                    <xsd:attribute name="id" type="xsd:int"/>
+                    <xsd:attribute name="name" type="xsd:string"/>
+                    <xsd:attribute name="age" type="xsd:int"/>
                 </xsd:extension>
             </xsd:complexContent>
         </xsd:complexType>

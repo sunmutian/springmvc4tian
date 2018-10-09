@@ -17,6 +17,4 @@ http://study.163.com/u/ykt1461577211836/schema/people http://study.163.com/u/ykt
 
 
 	<import resource="classpath:xml/MyName.xml" />
-
-
 </beans>
