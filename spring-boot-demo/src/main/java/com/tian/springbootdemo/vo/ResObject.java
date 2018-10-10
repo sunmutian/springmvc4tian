@@ -3,7 +3,7 @@ package com.tian.springbootdemo.vo;
 import java.io.Serializable;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/10/9 21
  * @Description:
  */

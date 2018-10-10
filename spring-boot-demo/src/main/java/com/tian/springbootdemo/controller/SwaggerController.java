@@ -11,7 +11,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/10/9 21
  * @Description:
  */
@@ -51,7 +51,7 @@ public class SwaggerController {
     @RequestMapping(value="/queryUser",method=RequestMethod.GET)
     public ResObject queryUser(@RequestParam("userId") Integer userId){
         System.out.println("queryUser:::"+userId);
-        User user = new User(userId, "张三", "******", 22);
+        User user = new User(userId, "张三", "man", 22);
         return new ResObject(HttpStatus.OK.value(), user);
     }
 
