@@ -1,1 +1,1 @@
-validation=com.tian.config.IPWhiteFilter
+validation=com.tian.config.IpWhiteFilter
