@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * dubbo 白名单处理
  *
- * @author tianweichang
+ * @author lawt
  * @date 2018-10-12
  * @see com.alibaba.dubbo.rpc.Filter
  */

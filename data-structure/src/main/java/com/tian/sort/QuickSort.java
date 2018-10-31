@@ -8,18 +8,21 @@ package com.tian.sort;
  **/
 public class QuickSort {
     public static void main(String[] args) {
-        int[] array = {2, 1, 5, 32, 9, 54, 12};
+        int[] array = {100,2, 1, 5, 32, 9, 54,10,99,3,12};
         int left = 0;
         int right = array.length - 1;
         sort(array, left, right);
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+            System.out.print(array[i]+",");
         }
 
     }
 
     /**
      * 排序--递归实现
+     * a是需要排序的数组
+     * low低下标
+     * high高下标
      */
     public static void sort(int[] a, int low, int high) {
         int start = low;
@@ -28,16 +31,17 @@ public class QuickSort {
         while (end > start) {
             //从后往前比较
             //如果没有比关键值小的，比较下一个，直到有比关键值小的交换位置，然后又从前往后比较
-            while (end > start && a[end] >= key)
-                end--;
+            while (end > start && a[end] >= key){
+                end--;}
             if (a[end] <= key) {
                 int temp = a[end];
                 a[end] = a[start];
                 a[start] = temp;
             }
             //从前往后比较
-            while (end > start && a[start] <= key)//如果没有比关键值大的，比较下一个，直到有比关键值大的交换位置
-                start++;
+            //如果没有比关键值大的，比较下一个，直到有比关键值大的交换位置
+            while (end > start && a[start] <= key)
+            {start++;}
             if (a[start] >= key) {
                 int temp = a[start];
                 a[start] = a[end];
