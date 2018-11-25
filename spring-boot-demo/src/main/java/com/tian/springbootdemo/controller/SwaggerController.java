@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
  * @auther: lawt
  * @date: 2018/10/9 21
  * @Description:
+ * 访问http://localhost:8089/swagger-ui.html
  */
 @Api(description = "用户接口",value = "my swagger")
 @RestController
