@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * @auther: lawt
  * @date: 2018/9/8 17
- * @Description:
+ * @Description: 数据
  */
 public class User implements Serializable {
     private Integer id;
@@ -56,5 +56,10 @@ public class User implements Serializable {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

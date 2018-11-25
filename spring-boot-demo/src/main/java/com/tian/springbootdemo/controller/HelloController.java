@@ -2,6 +2,7 @@ package com.tian.springbootdemo.controller;
 
 import com.tian.springbootdemo.dao.domain.User;
 import com.tian.springbootdemo.service.UserService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,6 +22,16 @@ public class HelloController {
     @RequestMapping("/hello")
     public User hello() {
         User user = userService.getUserById(1);
+        System.out.println(user);
+        return user;
+    }
+
+    @GetMapping("/test")
+    public User test() {
+        User user = new User();
+        user.setAge(22);
+        user.setId(10000);
+        user.setName("张三");
         System.out.println(user);
         return user;
     }
