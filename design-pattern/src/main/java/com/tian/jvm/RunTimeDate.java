@@ -9,12 +9,30 @@ package com.tian.jvm;
 public class RunTimeDate {
     //常量
     private static final int ID = 10000;
+    private static final String STR="1aw1kkkKKKK";
     //变量
     private static int AGE = 23;
     //Resource
     private MyService myService;//----栈帧中的动态链接
 
+    public void add(){
+        int a=0;
+        int b=1;
+        int c=a+b;
+    }
+    public synchronized void dd(){
+        int a=0;
+        int b=1;
+        int c=a+b;
+    }
 
+    public void cc(){
+        synchronized (this) {
+            int a = 0;
+            int b = 1;
+            int c = a + b;
+        }
+    }
     //main 方法本身放入----方法区
     public static void main(String[] args) {
         int a = 1;

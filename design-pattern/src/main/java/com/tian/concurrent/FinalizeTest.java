@@ -7,7 +7,7 @@ package com.tian.concurrent;
  * @date 2018-09-14 9:08
  **/
 public class FinalizeTest {
-    private static FinalizeTest finalizeTest = null;
+   /* private static FinalizeTest finalizeTest = null;
 
     public void info() {
         System.out.println("测试资源清理的finalize方法");
@@ -28,5 +28,5 @@ public class FinalizeTest {
     protected void finalize() throws Throwable {
         super.finalize();
         finalizeTest = this;
-    }
+    }*/
 }

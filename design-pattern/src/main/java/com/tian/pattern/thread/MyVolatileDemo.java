@@ -17,7 +17,7 @@ public class MyVolatileDemo implements Runnable {
         }
         System.out.println("线程退出" + (System.currentTimeMillis() - s));
     }
-    public static void main(String[] args) throws InterruptedException {
+   /* public static void main(String[] args) throws InterruptedException {
         MyVolatileDemo accounting = new MyVolatileDemo();
         Thread a1 = new Thread(accounting, "a");
         Thread a2 = new Thread(new Runnable() {
@@ -39,5 +39,5 @@ public class MyVolatileDemo implements Runnable {
     }
     public void setQuit(boolean quit) {
         this.quit = quit;
-    }
+    }*/
 }

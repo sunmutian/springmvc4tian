@@ -40,11 +40,11 @@ public class SemaphoreDemo {
     }
 
     public static void main(String[] args) {
-        SemaphoreDemo semaphoreDemo = new SemaphoreDemo();
+       /* SemaphoreDemo semaphoreDemo = new SemaphoreDemo();
         ExecutorService se = Executors.newCachedThreadPool();
         for (int i = 0; i < 20; i++) {
             se.submit(semaphoreDemo.new TaskDemo("第" + i + "个人"));
         }
-        se.shutdown();
+        se.shutdown();*/
     }
 }

@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class ClassLoaderTest {
-    public static void main(String[] args) throws Exception {
-        ClassLoader myLoader = new ClassLoader() {
+    public static void main(String[] args)  {
+       /* ClassLoader myLoader = new ClassLoader() {
             @Override
             public Class<?> loadClass(String name) throws ClassNotFoundException {
                 try {
@@ -31,6 +31,6 @@ public class ClassLoaderTest {
         System.out.println(obj.getClass());
 
         System.out.println(obj instanceof com.tian.jvm.ClassLoaderTest);
-
+*/
     }
 }

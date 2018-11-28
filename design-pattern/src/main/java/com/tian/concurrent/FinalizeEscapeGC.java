@@ -1,6 +1,5 @@
 package com.tian.concurrent;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 /**
  * @author tianweichang
@@ -13,15 +12,14 @@ public class FinalizeEscapeGC {
         System.out.println("yes,i am still alive：）");
     }
 
-    @Override
-    protected void finalize() throws Throwable {
+   /* protected void finalize() throws Throwable {
         super.finalize();
         System.out.println("finalize mehtod executed！");
         FinalizeEscapeGC.SAVE_HOOK = this;
-    }
+    }*/
 
-    public static void main(String[] args) throws Throwable {
-        SAVE_HOOK = new FinalizeEscapeGC();
+    public static void main(String[] args){
+      /*  SAVE_HOOK = new FinalizeEscapeGC();
         //对象第一次成功拯救自己
         SAVE_HOOK = null;
         System.gc();
@@ -41,6 +39,6 @@ public class FinalizeEscapeGC {
             SAVE_HOOK.isAlive();
         } else {
             System.out.println("no,i am dead：（");
-        }
+        }*/
     }
 }

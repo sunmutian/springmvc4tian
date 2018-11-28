@@ -8,8 +8,8 @@ import java.lang.reflect.Field;
  * @Description:
  */
 public class StringNotChange {
-    public static void main(String[] args) throws Exception {
-        //创建字符串"Hello World"， 并赋给引用s
+    public static void main(String[] args) {
+       /* //创建字符串"Hello World"， 并赋给引用s
         String s = "Hello World";
         //Hello World
         System.out.println("s = " + s);
@@ -22,6 +22,6 @@ public class StringNotChange {
         //改变value所引用的数组中的第5个字符
         value[5] = '_';
         //Hello_World
-        System.out.println("s = " + s);
+        System.out.println("s = " + s);*/
     }
 }

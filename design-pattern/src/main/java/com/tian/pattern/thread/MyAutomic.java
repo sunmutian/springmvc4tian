@@ -7,7 +7,7 @@ package com.tian.pattern.thread;
  * @Date 2018-08-13 16:34
  **/
 public class MyAutomic {
-    private static volatile int count = 0;
+   /* private static volatile int count = 0;
 
     private static void increase() {
         count++;
@@ -28,5 +28,5 @@ public class MyAutomic {
             threads[i].start();
             Thread.sleep(1);
         }
-    }
+    }*/
 }

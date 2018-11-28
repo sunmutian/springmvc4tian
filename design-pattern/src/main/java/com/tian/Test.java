@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2018-08-28 10:59
  **/
 public class Test {
-    public static void main(String[] args) {
+    public synchronized  static void main(String[] args) {
 
         String str1 = new StringBuilder("计算机").append("软件").toString();
         System.out.println(str1.intern() == str1);

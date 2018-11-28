@@ -29,7 +29,6 @@ class Cat {
 
     double weight = 2.3;
 
-    @Override
     public String toString() {
         return "Cat{" +
                 "name='" + name + '\'' +
