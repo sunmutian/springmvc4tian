@@ -24,18 +24,18 @@ public class MyApiController extends AbstractTemplate {
     }
 
     @Override
-    public void parseRequestParameters() {
-        System.out.println("*****解析参数*****");
+    protected void parseRequestParameters() {
+        System.out.println("MyApiController 解析参数");
     }
 
     @Override
-    public void checkRequestParameters() {
-        System.out.println("*****校验参数*****");
+    protected void checkRequestParameters() {
+        System.out.println("MyApiController 校验参数");
     }
 
     @Override
-    public Object doBusiness() {
-        System.out.println("*****处理业务*****");
+    protected Object doBusiness() {
+        System.out.println("MyApiController 处理业务");
         // TODO: 2018/11/17 调用service处理业务
         User user = new User();
         user.setName("小田哥");
@@ -46,8 +46,8 @@ public class MyApiController extends AbstractTemplate {
     }
 
     @Override
-    public Result assembleResponseParameters(Object object) {
-        System.out.println("*****返回参数*****");
+    protected Result assembleResponseParameters(Object object) {
+        System.out.println("MyApiController 返回参数");
         Result result = new Result("200", "处理成功");
         result.setData(object);
         return result;

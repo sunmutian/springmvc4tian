@@ -13,29 +13,38 @@ public abstract class AbstractTemplate {
      * 算法骨架
      */
     public Result execute() {
+        //第一步：解析参数
         parseRequestParameters();
+        //第二步：校验参数
         checkRequestParameters();
-        Object object= doBusiness();
-        return assembleResponseParameters(object);
+        //第三步：业务处理
+        Object data = doBusiness();
+        //第四步：组织返回参数
+        return assembleResponseParameters(data);
     }
 
     /**
      * 解析参数
      */
-    public abstract void parseRequestParameters();
+    protected void parseRequestParameters() {
+        System.out.println("AbstractTemplate 解析参数");
+    }
 
     /**
      * 校验参数
+     * 也可以在实现类里加以扩展
      */
-    public abstract void checkRequestParameters();
+    protected void checkRequestParameters() {
+        System.out.println("AbstractTemplate 校验参数");
+    }
 
     /**
      * 业务处理
      */
-    public abstract Object doBusiness();
+    protected abstract Object doBusiness();
 
     /**
      * 组织返回参数
      */
-    public abstract Result assembleResponseParameters(Object object);
+    protected abstract Result assembleResponseParameters(Object object);
 }
