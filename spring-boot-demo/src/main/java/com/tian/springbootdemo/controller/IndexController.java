@@ -7,8 +7,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.tian.springbootdemo.service.ArticleService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 
 /**
  * ClassName:StudentController
@@ -19,6 +24,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class IndexController {
+    @Resource
+    private ArticleService articleService;
+
     /**
      * freemarker:(跳转到 freemarker.ftl).
      *
@@ -46,12 +54,9 @@ public class IndexController {
         map.put("friends", friends);
         return "freemarker";
     }
-    @RequestMapping("/index")
-    public String index(Map<String, Object> map) {
-        map.put("name", "Joe");
-        //sex:性别，1：男；0：女；
-        map.put("sex", 1);
 
+    @RequestMapping("/index")
+    public String index(HttpSession session, Model model) {
         // 模拟数据
         List<Map<String, Object>> friends = new ArrayList<>();
         Map<String, Object> friend = new HashMap<>();
@@ -62,7 +67,18 @@ public class IndexController {
         friend.put("name", "July");
         friend.put("age", 18);
         friends.add(friend);
-        map.put("friends", friends);
+        model.addAttribute("friends", friends);
+        int userId = 1;
+        if (session != null) {
+            userId = 0;
+        }
+        int countArticles = articleService.selectCountByUserId(userId);
+        model.addAttribute("countArticles", countArticles);
+        model.addAttribute("days", 120);
+        model.addAttribute("content", "敬请期待");
+        model.addAttribute("title", "hello world");
+        model.addAttribute("email", "251965157@qq.com");
+        model.addAttribute("wechat", "Java后端技术栈");
         return "index";
     }
 }
