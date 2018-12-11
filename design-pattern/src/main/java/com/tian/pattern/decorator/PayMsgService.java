@@ -1,20 +1,21 @@
 package com.tian.pattern.decorator;
 
 /**
- * 装饰角色
+ * 抽象装饰角色
+ * 增加一个发站内信的功能接口类
  *
  * @author tianwc
  * @date 2018/11/20
  */
-public interface PayMsgService extends PayService {
-    /**
-     * 支付
-     */
-    @Override
-    void pay();
+public abstract class PayMsgService implements PayService {
 
     /**
      * 发站内信
      */
-    void sendMsg();
+    public abstract void sendMsg();
+
+    /**
+     * 发邮件
+     */
+    public abstract void sendMail();
 }

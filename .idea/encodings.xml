@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-structure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-pattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sk-system" charset="UTF-8" />

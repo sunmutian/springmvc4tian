@@ -1,9 +1,9 @@
 package com.tian;
 
-import org.springframework.beans.factory.support.BeanDefinitionBuilder;
+/*import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils;
-import org.w3c.dom.Element;
+import org.w3c.dom.Element;*/
 
 /**
  * StudentBeanDefinitionParser class
@@ -12,8 +12,8 @@ import org.w3c.dom.Element;
  * @author Java后端技术栈
  * @date 2018/09/25
  */
-public class StudentBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {
-    @Override
+public class StudentBeanDefinitionParser   {
+   /* @Override
     protected Class getBeanClass(Element element) {
         return Student.class;
     }
@@ -33,5 +33,5 @@ public class StudentBeanDefinitionParser extends AbstractSingleBeanDefinitionPar
         if (StringUtils.hasText(age)) {
             bean.addPropertyValue("age", Integer.valueOf(age));
         }
-    }
+    }*/
 }

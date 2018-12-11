@@ -4,18 +4,14 @@ import com.tian.springmvc.annotation.Controller;
 import com.tian.springmvc.annotation.RequestMapping;
 
 /**
- * Copyright © 2018 上海金互行金融服务有限公司. All rights reserved. *
- * <p>
- * 注册 TODO
- *
- * @Author tianweichang
+ * @Author 小田哥
  * @Date 2018-08-10 15:25
  **/
-@Controller("register")
-@RequestMapping("/register")
+@Controller
+@RequestMapping("/user")
 public class RegisterController extends AbstractTemplate {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/register")
     @Override
     public void execute() {
         super.execute();

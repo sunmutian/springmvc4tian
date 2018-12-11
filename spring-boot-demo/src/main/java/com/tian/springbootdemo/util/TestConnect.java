@@ -23,7 +23,7 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.message.BasicNameValuePair;
 
 public class TestConnect {
-    public static void main(String[] args) throws InterruptedException {
+    /*public static void main(String[] args) throws InterruptedException {
         //用于分线程执行完 开始执行主线程 我试的没用
         // CountDownLatch count = new CountDownLatch(500);
         //http连接池
@@ -76,11 +76,11 @@ class myThread1 implements Runnable {
 
         //设置表单数据 我们是post请求  get的直接url后加参数
         List<NameValuePair> params = new ArrayList();
-        /*params.add(new BasicNameValuePair("name", "" + i));
+        *//*params.add(new BasicNameValuePair("name", "" + i));
         params.add(new BasicNameValuePair("unit", "" + i));
         params.add(new BasicNameValuePair("phone", "" + i));
         params.add(new BasicNameValuePair("jobTitle", "" + i));
-        params.add(new BasicNameValuePair("email", "" + i));*/
+        params.add(new BasicNameValuePair("email", "" + i));*//*
         // 转换参数并设置编码格式
         get.setEntity(new UrlEncodedFormEntity(params, Consts.UTF_8));
         try {
@@ -95,7 +95,7 @@ class myThread1 implements Runnable {
             e.printStackTrace();
         }
 
-    }
+    }*/
 
 }
 

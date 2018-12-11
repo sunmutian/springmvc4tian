@@ -14,7 +14,7 @@ public class SimpleWindow implements Window {
 
     @Override
     public String getDescription() {
-        System.out.println("simple window");
-        return "simple window";
+        System.out.println("------简单的窗口-----");
+        return "简单的窗口";
     }
 }

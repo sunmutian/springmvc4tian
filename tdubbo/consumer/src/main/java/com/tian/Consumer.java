@@ -2,6 +2,7 @@ package com.tian;
 
 import com.tian.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.util.StringUtils;
 
 /**
  * 启动客户端
@@ -19,5 +20,6 @@ public class Consumer {
         String hello = demoService.sayHello("world");
         // 显示调用结果
         System.out.println(hello);
+        System.out.println(StringUtils.hasText("  "));
     }
 }

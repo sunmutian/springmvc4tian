@@ -4,9 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tdubbo/api/api.iml" filepath="$PROJECT_DIR$/tdubbo/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/consumer/consumer.iml" filepath="$PROJECT_DIR$/tdubbo/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-spring/custom-spring.iml" filepath="$PROJECT_DIR$/custom-spring/custom-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structure/data-structure.iml" filepath="$PROJECT_DIR$/data-structure/data-structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/lawt-web.iml" filepath="$PROJECT_DIR$/lawt-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-jvm.iml" filepath="$PROJECT_DIR$/my-jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/provider/provider.iml" filepath="$PROJECT_DIR$/tdubbo/provider/provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/sk-system/sk-system.iml" filepath="$PROJECT_DIR$/sk-system/sk-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />

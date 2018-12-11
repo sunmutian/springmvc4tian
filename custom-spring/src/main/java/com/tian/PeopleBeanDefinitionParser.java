@@ -1,18 +1,13 @@
 package com.tian;
 
-import org.springframework.beans.factory.support.BeanDefinitionBuilder;
-import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
-import org.springframework.util.StringUtils;
-import org.w3c.dom.Element;
 /**
  * PeopleBeanDefinitionParser class
  *
  * @author Java后端技术栈
  * @date 2018/09/25
  */
-public class PeopleBeanDefinitionParser extends
-        AbstractSingleBeanDefinitionParser {
-    @Override
+public class PeopleBeanDefinitionParser  {
+    /*@Override
     protected Class getBeanClass(Element element) {
         return People.class;
     }
@@ -31,5 +26,5 @@ public class PeopleBeanDefinitionParser extends
         if (StringUtils.hasText(age)) {
             bean.addPropertyValue("age", Integer.valueOf(age));
         }
-    }
+    }*/
 }

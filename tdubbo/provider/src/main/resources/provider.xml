@@ -19,8 +19,8 @@
 
     <dubbo:provider filter="validation" delay="-1" timeout="6000" retries="0"/>
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.tian.service.DemoService" ref="demoService" timeout="200"/>
+    <dubbo:payService interface="com.tian.payService.DemoService" ref="demoService" timeout="200"/>
 
     <!-- 和本地bean一样实现服务 -->
-    <bean id="demoService" class="com.tian.service.impl.DemoServiceImpl"/>
+    <bean id="demoService" class="com.tian.payService.impl.DemoServiceImpl"/>
 </beans>
