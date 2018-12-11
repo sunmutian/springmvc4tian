@@ -1,9 +1,0 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:lawt="http://study.163.com/u/ykt1461577211836/schema/people"
-       xsi:schemaLocation="
-http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
-http://study.163.com/u/ykt1461577211836/schema/people http://study.163.com/u/ykt1461577211836/schema/people.xsd">
-    <lawt:people id="lawt" name="Java后端技术栈" age="20"/>
-    <lawt:student id="1001" name="张三" age="20"/>
-</beans>

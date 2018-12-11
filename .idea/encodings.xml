@@ -2,13 +2,5 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design-pattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mvc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sk-system" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tdubbo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tdubbo/api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tdubbo/consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tdubbo/provider" charset="UTF-8" />
   </component>
 </project>

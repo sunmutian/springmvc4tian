@@ -1,0 +1,60 @@
+
+@charset "utf-8";
+.CRM-dialog{
+	display: none;
+	position: absolute;
+	z-index: 9500;
+	background:#dedede;
+}
+.CRM-dialog .dlg-close{background:url(images/cls.png) no-repeat;}
+.CRM-dialog .dlg-container{
+    border:1px solid #ccc;
+	background:#fafafa;
+	color:#555;
+}
+.CRM-dialog .dlg-close{
+	position:absolute;
+	right:15px;
+	top:15px;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.CRM-dialog .dlg-titlebar{
+	background:#4b6787;
+	padding:0 15px 0 30px;
+	color:#fff;
+	font-size:14px;
+	line-height:44px;
+	font-weight:bold;
+}
+.CRM-dialog .dlg-btn-panel{text-align:center;padding:0 0 8px;}
+.dlg-btn-panel input{		
+	width:108px;
+	height:32px;
+	line-height:32px;
+	color:#fff;
+	border:0;
+	margin:0 34px;
+	cursor: pointer;
+	border-radius:2px;
+    background:#4b6787;
+}
+
+
+
+.dlg-confirm{
+	z-index:9600
+}
+.dlg-confirm .dlg-content{
+	line-height:24px;
+	padding:0 0 0;
+	
+}
+.dlg-confirm .dlg-btn-panel{
+	padding: 15px 0 40px;
+
+}
+
+.dlg-mini-prompt .dlg-content{padding:20px;}
