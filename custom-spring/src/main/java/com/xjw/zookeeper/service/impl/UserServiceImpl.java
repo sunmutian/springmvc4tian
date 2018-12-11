@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public int addUserInfo(User user) throws Exception {
-        return 0;
+        return userDao.addUserInfo(user);
     }
 
     /**

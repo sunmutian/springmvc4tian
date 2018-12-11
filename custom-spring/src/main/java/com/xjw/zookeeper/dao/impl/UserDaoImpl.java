@@ -103,7 +103,7 @@ public class UserDaoImpl implements UserDao {
      */
     @Override
     public int addUserInfo(User user) throws Exception {
-        return 0;
+        return jdbcTemplate.update("insert into t_user(user_name,password) values(?,?)", new Object[]{user.getUserName(), user.getPassWord()});
     }
 
     /**
