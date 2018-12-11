@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zookeeper管理中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script>
+        function autoHeightIframe() {
+            var ifm = document.getElementById('myframe'),
+                sidebar = document.getElementById('sidebar'),
+                nav_ul = document.getElementsByClassName('nav_list')[0],
+                doc = ifm.document ? ifm.document : ifm.contentDocument,
+                r_content = doc.getElementsByClassName('r_content')[0];
+
+            if (doc != null && r_content) {
+                var s_height = nav_ul.offsetHeight + 45 > r_content.offsetHeight + 20 ? nav_ul.offsetHeight + 45 : r_content.offsetHeight + 20;
+                $(ifm).css({'height': s_height});
+                $(sidebar).css({'height': s_height});
+            }
+            var ifmHeight = $('#myframe').height();
+            $(sidebar).css('height', ifmHeight);
+        }
+    </script>
+</head>
+
+<body>
+<div class="navbar">
+    <div class="navbar_logo">
+        <!--
+        <a></a>
+        <h1><span></span>Zookeeper管理平台 </h1>
+         -->
+        <h1>桑木村村民管理系统</h1>
+    </div>
+    <div class="navbar_login">
+        <span class="login_user"><em class="menu_icon_base login_avtar"></em>admin</span><em
+            class="menu_icon_base icon-user login_show"></em>
+    </div>
+</div>
+<div class="main-container">
+    <div class="main-container-inner">
+        <div class="sidebar" id="sidebar">
+            <div class="menu_toggler"><span id="menu_toggler" class="toggler_box"><b
+                    class="menu_icon_base arrow"></b></span></div>
+            <ul class="nav_list">
+                <li class="main_menu">
+                    <a href="#" class="dropdown-toggle"><span class="arrow_box"><b
+                            class="menu_icon_base arrow"></b></span><i
+                            class="menu_icon_budget icon_dashboard_2"></i><span class="menu_text">用户管理</span></a>
+                    <ul class="submenu sub1">
+                        <li><a src="/user/list">用户信息</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu">
+                    <a href="#" class="dropdown-toggle"><span class="arrow_box"><b
+                            class="menu_icon_base arrow"></b></span><i class="menu_icon_nav icon_dashboard_3"></i><span
+                            class="menu_text menu_text_style">服务管理</span></a>
+                    <ul class="submenu sub1">
+                        <li><a src="/monitor/home">Server列表</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu">
+                    <a href="#" class="dropdown-toggle"><span class="arrow_box"><b
+                            class="menu_icon_base arrow"></b></span><i class="menu_icon_nav icon_dashboard_3"></i><span
+                            class="menu_text menu_text_style">角色管理</span></a>
+                    <ul class="submenu sub1">
+                        <li><a src="/monitor/home">角色列表</a></li>
+                    </ul>
+                </li>
+                <li class="main_menu">
+                    <a href="#" class="dropdown-toggle"><span class="arrow_box"><b
+                            class="menu_icon_base arrow"></b></span><i class="menu_icon_nav icon_dashboard_3"></i><span
+                            class="menu_text menu_text_style">村务活动</span></a>
+                    <ul class="submenu sub1">
+                        <li><a src="/monitor/home">村务活动列表</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="tabs_wrap">
+                <ul class="nav nav_tabs nav_content"></ul>
+            </div>
+            <div class="tabs_frame" id="tabs_frame">
+                <!-- /.page-content -->
+                <iframe id="myframe" src="" scrolling=no style="border:0;width:99.9%;height:100%;min-height: 1000px;"
+                        onload="autoHeightIframe();"></iframe>
+            </div>
+            <!-- /.main-content -->
+        </div>
+    </div>
+</div>
+<div class="footer">
+    251965157@qq.com
+</div>
+</body>
+<script>
+    var showedMenu, expandLi;
+
+    $('#sidebar li').bind('click', function (event) {
+        var target = $(this);
+        if (target.has('.submenu').length > 0) {
+            target.toggleClass('expand').children('.submenu').toggle();
+            target.children('a').find('b').toggleClass('icon_angle_down');
+        } else {
+            $('#sidebar li').removeClass('active');
+            target.addClass('active');
+            $('li.main_menu').removeClass('selected');
+            target.parents('li.main_menu').addClass('selected');
+
+            $('#myframe').attr('src', target.find('a').attr('src'));
+            if (target.parents('.narrow_menu').length > 0) {
+                $('.narrow_selected_bg').removeClass('narrow_selected_bg');
+                target.parents('.main_menu').addClass('narrow_selected_bg').children('.submenu').hide();
+            }
+        }
+        event.stopPropagation();
+    });
+
+    $('#menu_toggler').bind('click', function (event) {
+        var toggler_img = $(this).find('b');
+        if (!toggler_img.hasClass('narrow')) {
+            expandLi = $('.nav_list>li.expand').removeClass('expand');
+            showedMenu = expandLi.children('.submenu').hide();
+            $('#sidebar').animate({width: '35px'}, 20);
+            $('li.main_menu>a>span').hide();
+            $('li.active').parents('.main_menu').addClass('narrow_selected_bg');
+            toggler_img.addClass('narrow');
+            $('#sidebar').addClass('narrow_menu');
+
+            $('.main_content').css({'margin-left': '35px'});
+        } else {
+            expandLi.addClass('expand');
+            showedMenu.show();
+            $('#sidebar').animate({width: '245px'}, 20);
+            $('li.main_menu>a>span').show();
+            $('li.active').parents('.main_menu').removeClass('narrow_selected_bg');
+            toggler_img.removeClass('narrow');
+            $('#sidebar').removeClass('narrow_menu');
+
+            $('.main_content').css({'margin-left': '245px'});
+        }
+
+    });
+
+    $('li.main_menu').hover(function () {
+        if ($(this).parents('.narrow_menu').length > 0) {
+            console.log('in');
+            var top = $(this).offset().top,
+                left = $(this).offset().left,
+                menuTxt = $(this).find('.menu_text').text(),
+                submenu = $(this).children('.submenu');
+
+            submenu.prepend('<div class="tmp_menu_text">' + menuTxt + '</div>');
+            submenu.css({top: top - 45 + 'px', left: left + 37 + 'px'}).show();
+        }
+    }, function () {
+        if ($(this).parents('.narrow_menu').length > 0) {
+            console.log('out');
+            $(this).children('.submenu').hide().find('.tmp_menu_text').remove();
+        }
+    });
+
+</script>
+</html>

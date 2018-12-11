@@ -20,15 +20,18 @@
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
       <module name="consumer" target="1.8" />
-      <module name="custom-spring" target="1.8" />
+      <module name="custom-spring" target="1.7" />
       <module name="data-structure" target="1.8" />
       <module name="design-pattern" target="1.8" />
       <module name="lawt-web" target="1.7" />
       <module name="mvc" target="1.8" />
+      <module name="my-jvm" target="1.7" />
       <module name="provider" target="1.8" />
       <module name="sk-system" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
+      <module name="sunmu" target="1.7" />
       <module name="tdubbo" target="1.7" />
+      <module name="zmc" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

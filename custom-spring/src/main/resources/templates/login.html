@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>list.html</title>
+
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/js/commonMethod.js"></script>
+    <script src="/js/lhgdialog.js"></script>
+    <script src="/js/server/server-manage.js"></script>
+    <link rel="stylesheet" href="/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/select.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/loading.css"/>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+<div class="table_box">
+    <table width="50%" border="0" class="cw_table thead_2">
+        <thead>
+        <tr>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <td><input type="text" id="username" name="username" placeholder="手机号"/></td>
+        </tbody>
+        <thead>
+        <tr>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <td><input class="mt-3" type="password" id="password" name="password" placeholder="登录密码"/></td>
+        </tbody>
+        <thead>
+        <tr>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <td><!--<input type="checkbox" id="jizhu" value="记住用户名" checked="checked"/><label>记住用户名</label><a
+                href="javascript:resetPassword();" class="forget">忘记密码？-->
+            <button id="submitLogin">登　录</button>
+            </a></td>
+        </tbody>
+    </table>
+</div>
+</body>
+<script type="text/javascript">
+    $("#submitLogin").click(function () {
+        var username = $("#username").val();
+        var password = $("#password").val();
+        $.ajax({
+            type: "POST",
+            url: '/2login',
+            data: {username: username, password: password},
+            success: function (result) {
+                console.info(result);
+                if (result.result == 'success') {
+                    alert(result.msg)
+                    window.location.href = "http://localhost:8081/index"
+                }else {
+                    alert(result.msg)
+                }
+            },
+            error: function () {
+                alert("登录失败")
+                window.location.href = "http://localhost:8081/"
+            }
+        });
+    });
+</script>
+</html>

@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/tdubbo/provider/provider.iml" filepath="$PROJECT_DIR$/tdubbo/provider/provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/sk-system/sk-system.iml" filepath="$PROJECT_DIR$/sk-system/sk-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$//sunmu.iml" filepath="$PROJECT_DIR$//sunmu.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/tdubbo.iml" filepath="$PROJECT_DIR$/tdubbo/tdubbo.iml" />
     </modules>
   </component>
