@@ -36,4 +36,8 @@ public interface UserService {
      * 更新一个用户信息
      */
     int updUserInfo(User user) throws Exception;
+    /**
+     * 通过userName获取用户的信息
+     */
+    List<User> getUserInfoByUserName(String userName) throws Exception;
 }

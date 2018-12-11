@@ -12,6 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
 @Repository
 public class UserDaoImpl implements UserDao {
     @Resource
@@ -57,7 +58,42 @@ public class UserDaoImpl implements UserDao {
      */
     @Override
     public User getUserInfoById(int id) throws Exception {
-        return null;
+        final User user = new User();
+        jdbcTemplate.query("select * from t_user WHERE id=?", new Object[]{id}, new RowCallbackHandler() {
+            @Override
+            public void processRow(ResultSet rs) throws SQLException {
+                do {
+                    user.setId(rs.getInt("id"));
+                    user.setUserName(rs.getString("user_name"));
+                    user.setPassWord(rs.getString("password"));
+                } while (rs.next());
+            }
+        });
+        return user;
+    }
+
+    /**
+     * 通过userName获取用户的信息
+     *
+     * @param userName
+     */
+    @Override
+    public List<User> getUserInfoByUserName(String userName) throws Exception {
+        final List<User> users = new ArrayList<User>();
+        jdbcTemplate.query("select * from t_user WHERE user_name=?", new Object[]{userName}, new RowCallbackHandler() {
+            @Override
+            public void processRow(ResultSet rs) throws SQLException {
+                User user;
+                do {
+                    user = new User();
+                    user.setId(rs.getInt("id"));
+                    user.setUserName(rs.getString("user_name"));
+                    user.setPassWord(rs.getString("password"));
+                    users.add(user);
+                } while (rs.next());
+            }
+        });
+        return users;
     }
 
     /**

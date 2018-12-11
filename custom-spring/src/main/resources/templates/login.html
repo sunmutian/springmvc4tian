@@ -25,25 +25,15 @@
     <table width="50%" border="0" class="cw_table thead_2">
         <thead>
         <tr>
-            <th></th>
+            <th>登录</th>
         </tr>
         </thead>
         <tbody>
-        <td><input type="text" id="username" name="username" placeholder="手机号"/></td>
+        <td><input type="text" id="username" name="username" placeholder="用户名"/></td>
         </tbody>
-        <thead>
-        <tr>
-            <th></th>
-        </tr>
-        </thead>
         <tbody>
         <td><input class="mt-3" type="password" id="password" name="password" placeholder="登录密码"/></td>
         </tbody>
-        <thead>
-        <tr>
-            <th></th>
-        </tr>
-        </thead>
         <tbody>
         <td><!--<input type="checkbox" id="jizhu" value="记住用户名" checked="checked"/><label>记住用户名</label><a
                 href="javascript:resetPassword();" class="forget">忘记密码？-->
@@ -62,9 +52,7 @@
             url: '/2login',
             data: {username: username, password: password},
             success: function (result) {
-                console.info(result);
                 if (result.result == 'success') {
-                    alert(result.msg)
                     window.location.href = "http://localhost:8081/index"
                 }else {
                     alert(result.msg)

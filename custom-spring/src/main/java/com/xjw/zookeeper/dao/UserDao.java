@@ -22,6 +22,11 @@ public interface UserDao {
     User getUserInfoById(int id) throws Exception;
 
     /**
+     * 通过userName获取用户的信息
+     */
+    List<User> getUserInfoByUserName(String userName) throws Exception;
+
+    /**
      * 添加一个用户信息
      */
     int addUserInfo(User user) throws Exception;

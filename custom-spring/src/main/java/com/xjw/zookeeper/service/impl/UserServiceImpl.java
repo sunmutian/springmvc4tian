@@ -64,4 +64,14 @@ public class UserServiceImpl implements UserService {
     public int updUserInfo(User user) throws Exception {
         return 0;
     }
+
+    /**
+     * 通过userName获取用户的信息
+     *
+     * @param userName
+     */
+    @Override
+    public List<User> getUserInfoByUserName(String userName) throws Exception {
+        return userDao.getUserInfoByUserName(userName);
+    }
 }

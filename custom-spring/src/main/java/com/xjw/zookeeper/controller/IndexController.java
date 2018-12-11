@@ -1,11 +1,13 @@
 package com.xjw.zookeeper.controller;
 
 import com.xjw.zookeeper.entity.User;
+import com.xjw.zookeeper.service.UserService;
 import com.xjw.zookeeper.util.Constants;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -24,7 +26,9 @@ import javax.servlet.http.HttpSession;
  */
 @RestController
 public class IndexController {
-
+    /**
+     * 首页
+     */
     @RequestMapping("/index")
     public ModelAndView index(HttpSession session) {
         ModelAndView view = new ModelAndView();
@@ -33,7 +37,8 @@ public class IndexController {
             view.setViewName("login");
             return view;
         }
-
+        //用户名
+        view.addObject("userName", user.getUserName());
         view.setViewName("index");
         return view;
     }
