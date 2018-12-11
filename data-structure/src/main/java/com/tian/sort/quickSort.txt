@@ -1,2 +1,0 @@
-快速排序作为一种高效的排序算法被广泛应用，SUN的JDK中的Arrays.sort 方法用的就是快排。
-快排采用了经典的分治思想（divide and conquer）：

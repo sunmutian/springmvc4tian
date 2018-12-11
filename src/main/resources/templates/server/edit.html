@@ -1,0 +1,20 @@
+		
+		<ul class="m_ul xzcg_sqd_ul">
+			<li>
+				<label class="lbl_50">主机地址：</label>
+				<span><input type="text" class="w_200" id="host" value="$!{zkServerInfo.ip}"/></span>
+			</li>
+			<li>
+				<label class="lbl_50">端口：</label>
+				<span><input type="text" class="w_200" id="port" value="$!{zkServerInfo.port}"/></span>
+			</li>
+			<li>
+				<label class="lbl_50">配置文件：</label>
+				<span><input type="text" class="w_200" id="configPath" value="$!{zkServerInfo.configPath}"/></span>
+			</li>
+			<li>
+				<label class="lbl_50">描述：</label>
+				<span><textarea style="margin-bottom: 0px;" id="desc">$!{zkServerInfo.desc}</textarea></span>
+			</li>
+		</ul>
+		<input type="hidden" id="id" value="$!{zkServerInfo.id}"/>

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.d_txt{padding:0 5px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border:1px solid #e6e6e6;height:30px;line-height:30px;vertical-align:middle}
+.d_area{padding:10px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border:1px solid #e6e6e6;resize:none;vertical-align:top;color:#e6e6e6;}
+.d_mt{margin-top:30px;}
+.dl_tr{text-align:right;}
+
+.d_error{color:#ee5500;margin-left:15px;}
+.d_required{color:#ee5500;margin-left:10px;position:relative;top:3px;}
+
+.dlg_addGroup .d_txt,.dlg_addCustom .d_txt{width:180px;}
+.dlg_addGroup .d_txt,.dlg_addGroup .d_area{margin-left:20px;}
+.dlg_addGroup .d_area{width:330px;height:118px;padding:5px;}
+.dlg_addGroup{padding-left:56px;width: 486px;}
+
+.d_list  li{margin-top:30px;line-height:30px;overflow:hidden;}
+.d_list  .lbl{float:left;}
+.d_list  .reg{float:left;}
+
+.l_w1{width:80px;text-align:left;display:inline-block;vertical-align:middle}
+.dlg_addCustom .d_error{margin-left:0;line-height:20px;}
+.dlg_addCustom{padding:35px 0 0 66px;width:342px;}
+.dlg_addCustom li{margin-top:0;height:65px;}
+.d_list .l_w1{float:left;}
+.d_list .res{width:220px;float:left;}
+.dlg_content .tips{}
+
+.dlg_import{width:450px;padding:0 0 20px 110px;}
+
+.dlg_btn{background:#4b6787;color:#fff;height:32px;line-height:32px;width:106px;text-align:center;cursor:pointer;display:inline-block;vertical-align:middle;margin:0 20px 0 0;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;-ms-border-radius:2px;}
+.dlg_import li{line-height:32px;padding-top:20px;overflow:hidden}
+.dlg_import .lbl{float:left;width:70px;}
+.dlg_import .reg{width:370px;float:left}
+.dlg_import .fnm{font-weight:bold;color:#0096ff}
+.dlg_import li p{margin-top:5px;}
+
+.dlg_delete{text-align:center;padding:40px 100px 20px;font-size:16px;font-weight:bold;}
+.dlg_move .lbl{margin-right:15px;}
+.dlg_move li{margin:30px 0;}
+.dlg_move{width:440px;padding:10px 60px;}
+
+.dlg_sendMsg{padding:0 30px 30px 40px;width:585px;overflow:hidden}
+.dlg_sendMsg .lbl{width:80px;text-align:left;}
+.dlg_sendMsg .reg{width:502px;}
+.dlg_sendMsg .d_txt{width:180px;}
+.dlg_sendMsg .d_area{width:480px;height:120px;padding:10px;}
+.dlg_sendMsg .btns{padding:20px 135px 0 0;position:relative;}
+.dlg_sendMsg .tips{margin-right:10px;width:388px;line-height:20px;}
+.dlg_sendMsg .dlg_btn{position:absolute;top:30px;right:0;margin-right:0;}
+
+.dlg_buyMsg{width:498px;padding:35px 0;}
+.d_Charge i{color:#ee5500;font-size:20px;font-family:'Microsoft Yahei';margin-right:5px;}
+.d_Charge li{padding:8px 0 8px 50px;overflow:hidden;*zoom:1;}
+.d_Charge li .left{width:246px;float:left;margin-right:40px;}
+.d_Charge .dlg_btn{float:left;}
+.d_Charge li.odd{background:#eee}
+.d_Charge{height:240px;overflow-y:auto;}
+
+.dlg_delGroup{width:360px;padding:0 60px 20px;}
+.dlg_delGroup .lbl{margin-right:20px;float:none}
+.dlg_delGroup .dlg_sel{width:192px;height:32px;height:auto\0;vertical-align:middle;}
+
+.tFile{position:relative;display:inline-block;width:106px;height:32px;overflow:hidden;vertical-align:middle;margin-right:10px;}
+.tFile input{position:absolute;top:0;left:0;opacity:0;filter:alpha(opacity=0);z-index:200;height:32px;width:106px;overtflow:hidden;}
+.tFile .dlg_btn{position:absolute;top:0;left:0;z-index:100}
+
