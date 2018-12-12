@@ -11,6 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+/**
+ * Spring Cloud Client Application class
+ *
+ * @author tianwc
+ * @date 2018/12/12
+ */
 @SpringBootApplication
 @EnableEurekaServer
 @RestController
