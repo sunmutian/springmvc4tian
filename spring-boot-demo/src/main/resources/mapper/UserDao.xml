@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tian.spring.mvc.dao.mapper.UserDao">
+
+    <select id="getUserById" resultType="com.tian.spring.mvc.dao.domain.User">
+        SELECT
+        id,
+        name as name,
+        gender as sex,
+        age as age
+        FROM user
+        WHERE id = #{id}
+    </select>
+    <update id="updateUser">
+        UPDATE user
+        SET name = #{user.name},
+        gender = #{user.sex},
+        age = #{user.age}
+        WHERE id = #{user.id}
+    </update>
+    <insert id="insertUser">
+        INSERT INTO
+        user(id, name,gender, age)
+        VALUES (
+        #{user.id},
+        #{user.name},
+        #{user.sex},
+        #{user.age}
+        )
+    </insert>
+    <delete id="deleteUserById">
+        DELETE user WHERE ID = #{id}
+    </delete>
+
+</mapper>

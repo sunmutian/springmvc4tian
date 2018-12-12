@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tian.spring.mvc.dao.mapper.GoodsDao">
+
+    <select id="getUserById" resultType="com.tian.spring.mvc.dao.domain.Goods">
+        SELECT
+          id,
+          count,
+          name,
+          version
+        FROM goods
+        WHERE id = #{id}
+    </select>
+    <update id="updateUser">
+        UPDATE goods
+        SET  count=#{gs.count}
+        WHERE id = #{gs.id}
+    </update>
+    <insert id="insertUser">
+        INSERT INTO `goods` VALUES
+        VALUES (
+        #{gs.id},
+        #{gs.count},
+        #{gs.name},
+        #{gs.version}
+        )
+    </insert>
+    <delete id="deleteUserById">
+        DELETE user WHERE ID = #{id}
+    </delete>
+
+</mapper>
