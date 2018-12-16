@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64dcd264-d3c1-4e8e-a524-25efc1adab51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/tdubbo/target/" />
@@ -46,26 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomLoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RpcClientProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,6 +86,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IHelloService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractLoadBalance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadBalance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,35 +150,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="242">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceDiscoveryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractLoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RejectedExecutionHandler</find>
       <find>threadLocals</find>
       <find>threshold</find>
       <find>insert</find>
@@ -208,12 +204,13 @@
       <find>dubb</find>
       <find>equals</find>
       <find>hashcod</find>
+      <find>Gupao</find>
     </findStrings>
     <dirStrings>
-      <dir>D:\sourcecode\mycode\springmvc4tian</dir>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring</dir>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring\src</dir>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\spring-boot-demo\src\main\resources</dir>
+      <dir>D:\sourcecode\mycode\springmvc4tian</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -259,7 +256,6 @@
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" />
         <option value="$PROJECT_DIR$/dubbo-server/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-client/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IRegistryCenter.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
         <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java" />
@@ -271,13 +267,14 @@
         <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java" />
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java" />
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" />
         <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java" />
         <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
       </list>
     </option>
   </component>
@@ -445,7 +442,101 @@
             <path>
               <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
@@ -1134,11 +1225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544960307233</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="代码优化">
+      <created>1544962628604</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1544962628604</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229695000" />
+    <option name="totallyTimeSpent" value="230272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1159,7 +1257,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37157536" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1242,7 +1340,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ThreadLocal是否可以造成OOM内存溢出" />
     <MESSAGE value="自定义spring schema demo" />
     <MESSAGE value="类名称修改" />
     <MESSAGE value="类添加注释" />
@@ -1267,7 +1364,8 @@
     <MESSAGE value="加入数据结构部分" />
     <MESSAGE value="手写dubbo" />
     <MESSAGE value="删除api无用module" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除api无用module" />
+    <MESSAGE value="代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1562,30 +1660,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1084">
-          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1656,22 +1736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -1696,23 +1760,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1364#2295#0" expanded="true" />
             <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1747,12 +1794,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ import com.tian.annotation.Service;
 /**
  * @auther: tianweichang
  * @date: 2018/12/15 21
- * @Description:
+ * @Description: 业务实现类
  */
 @Service(IHelloService.class)
 public class HelloServiceImpl implements IHelloService {

@@ -5,13 +5,11 @@ import java.util.List;
 /**
  * @auther: tianweichang
  * @date: 2018/12/16 19
- * @Description:
+ * @Description: 负载均衡【模板类】
  */
 public abstract class AbstractLoadBalance implements LoadBalance {
     /**
-     *
-     * @param urls
-     * @return
+     * 模板方法
      */
     public String select(List<String> urls) {
         if (urls == null || urls.size() == 0) {
@@ -20,6 +18,8 @@ public abstract class AbstractLoadBalance implements LoadBalance {
         return null;
     }
 
-    //留个具体的实现类实现   模板模式-->钩子方法
+    /**
+     * 留个具体的实现类实现  【钩子方法】
+     */
     protected abstract String doSelect(List<String> urls);
 }
