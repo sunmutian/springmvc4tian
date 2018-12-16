@@ -16,6 +16,9 @@
         <module>spring-boot-demo</module>
         <module>custom-spring</module>
         <module>data-structure</module>
+        <module>dubbo-server</module>
+        <module>dubbo-client</module>
+        <module>dubbo-api</module>
     </modules>
 
     <name>lawt-web</name>

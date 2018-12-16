@@ -2,333 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64dcd264-d3c1-4e8e-a524-25efc1adab51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/1_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/1_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/diy/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/line_conn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/zTreeStandard.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/img/zTreeStandard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/16164054.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/cal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/checktree_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/cls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/cont_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/home_but.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-examine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-user-empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon-user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon_chengong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/icon_shibai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/linear_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/menu_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/menu_icon.png.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/images/wron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/blue_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/blue_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/blue_titbtn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_lt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_rt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue/ie6/ui_t2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/chrome/chrome_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/chrome/chrome_s2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/chrome/chrome_s3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/iblack_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/iblack_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_lt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_rt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack/ie6/ui_t2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/iblue_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/iblue_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_lt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_rt2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue/ie6/ui_t2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/32X32/fail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/32X32/hits.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/32X32/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/32X32/succ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/confirm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/discuz_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/face-sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/face-smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/gb_tip_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/gb_tip_layer_ie6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/lhgcore.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/prompt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/icons/tips.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/idialog_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/idialog_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_close.hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog/ie6/ui_t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/ie6/ui_t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/igreen_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen/igreen_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/TaurusNormal.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/TaurusNormal.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/201610171329086541.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/201610181557196870.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/201610181739277776.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/201610241224221511.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/201610241227558789.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/ad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/backtop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/news-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/images/occupying.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tian_api_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_aggregate_jetty_all_9_0_0_v20130308.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_jsp_9_0_0_v20130308.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_com_sun_el_2_2_0_v201108011116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_el_2_2_0_v201108011116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_jsp_2_2_0_v201112011158.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_jsp_jstl_1_2_0_v201105211821.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_org_apache_jasper_glassfish_2_2_2_v201112011158.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_org_apache_taglibs_standard_glassfish_1_2_0_v201112081803.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_org_eclipse_jdt_core_3_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/application/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/client/ZookeeperClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/controller/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/controller/MonitorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/controller/NodeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/dao/ZkServerInfoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/dao/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/dao/impl/ZkServerInfoDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/distributedlock/DistributeLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/distributedlock/Worker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/JsonResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/NodeData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/ResultRuok.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/ResultStat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/ZkNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/entity/ZkServerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/enums/NodeModelEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/enums/ServerModelEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/enums/ServerStatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/server/ZookeeperServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/service/ZkServerInfoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/service/impl/ZkServerInfoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/socket/SocketClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/systemconfig/SystemConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/systemconfig/ZookeeperConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/systemconst/CommandConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/systemconst/CommandConstEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/test/MyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/util/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/util/ZookeeperUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/viewresolver/JsonViewResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/wordscommand/WordsCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/sql/t_server_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/calendar-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/dlg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/jquery-ui-autocompleate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/loading.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/css/zTreeStyle/zTreeStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/html/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/artDialog/iframeTools.source.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/artDialog/jquery.artDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/artDialog/jquery.artDialog.source.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/artDialog/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/commonMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/jquery.ztree.core-3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/jquery.ztree.excheck-3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/lhgcore.lhgdialog.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/lhgdialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/lhgdialog.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/node/node-manage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/server/server-manage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/chrome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/discuz.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblack.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/iblue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/idialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/igreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/jtop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/skins/mac.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/static/js/user/user-manage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/common/loading.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/node/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/node/childrenList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/node/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/node/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/server/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/server/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/server/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/server/wordsCommand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/user/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/user/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/user/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom-spring/src/main/resources/templates/user/wordsCommand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-structure/data-structure.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/mvc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sk-system/sk-system.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/css/nprogress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/TaurusNormal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/jquery-2.1.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/jquery.ias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/jquery.lazyload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/nprogress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/js/selectivizr-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sunmu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tdubbo/api/api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tdubbo/tdubbo.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/AppMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/MyNamespaceHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/PeopleBeanDefinitionParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/StudentBeanDefinitionParser.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/mybatis-generator-core-1.3.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/mysql-connector-java-5.1.46.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/dubbo-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IServiceDiscovery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ZookeeperConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/dubbo-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/tian/mvc/SpringBootMvcApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/tian/mvc/controller/IndexController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_tian_api_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tian_api_1_0_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-spring/custom-spring.iml" afterPath="$PROJECT_DIR$/custom-spring/custom-spring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-spring/pom.xml" afterPath="$PROJECT_DIR$/custom-spring/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jvm.iml" afterPath="$PROJECT_DIR$/my-jvm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tdubbo/consumer/consumer.iml" afterPath="$PROJECT_DIR$/tdubbo/consumer/consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tdubbo/provider/provider.iml" afterPath="$PROJECT_DIR$/tdubbo/provider/provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" afterPath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/tdubbo/target/" />
     <ignored path="$PROJECT_DIR$/tdubbo/api/target/" />
@@ -342,6 +61,9 @@
     <ignored path="$PROJECT_DIR$/custom-spring/target/" />
     <ignored path="$PROJECT_DIR$/data-structure/target/" />
     <ignored path="$PROJECT_DIR$/../../zookeeper-manage-center/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -361,12 +83,82 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/application/Application.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ServerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <state relative-caret-position="-15">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcProxyHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1084">
+              <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -433,31 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/adapter/DBSocketInterface.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/RunTimeDate.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/reference/StrongReferenceMain.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/reference/SoftReferenceMain.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/reference/weakReferenceMain.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/reference/WeakReferenceMain.java" />
-        <option value="$PROJECT_DIR$/mvc/src/main/java/com/tian/springmvc/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/vo/Result.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/vo/User.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/sk-system/src/main/java/com/tian/sk/bean/Test.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/jvm/MyDemo4GC.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/AbstractTemplate.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/template/Subclass2.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/template/ClientMain.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/template/Subclass1.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/template/AbstractTemplate.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/MyApiController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/freemarker.ftl" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/index.ftl" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/resources/static/css/style.css" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/Window.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/WindowDecorator.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/DecoratedWindowTest.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/VerticalScrollBarDecorator.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/HorizontalScrollBarDecorator.java" />
@@ -484,6 +251,31 @@
         <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/StudentBeanDefinitionParser.java" />
         <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/AppMain.java" />
         <option value="$PROJECT_DIR$/custom-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/RpcAnnotation.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/api/IHelloService.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/api/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/IRegistryCenter.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IRegistryCenter.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java" />
       </list>
     </option>
   </component>
@@ -512,8 +304,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1032" />
+    <option name="x" value="533" />
+    <option name="y" value="103" />
+    <option name="width" value="905" />
+    <option name="height" value="519" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -610,7 +404,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -626,7 +422,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -637,22 +432,225 @@
             <path>
               <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="custom-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="DubboN&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler&#10;ThreadLocal&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Protoco&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.Protocol&#10;ServiceB&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.ServiceBean&#10;injectExtension&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader#injectExtension&#10;ThreadLo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;doExportUrlsFor1Protocol&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.ServiceConfig#doExportUrlsFor1Protocol&#10;com.mysql.jdbc.Driver&#9;PSI&#9;JAVA://com.mysql.jdbc.Driver&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Thread.class&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java&#10;LinkedBlockingQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayBl&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Service&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/ext/jfxrt.jar!/javafx/concurrent/Service.class&#10;NettyTran&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty.NettyTransporter&#10;DiscardPolicy&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor.DiscardPolicy&#10;RejectedExecutionHandler&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/RejectedExecutionHandler.java&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Execut&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java&#10;Executo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java" />
+    <property name="SearchEverywhereHistoryKey" value="ChannelIn&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;Component&#9;PSI&#9;JAVA://org.springframework.stereotype.Component&#10;Compon&#9;PSI&#9;JAVA://java.awt.Component&#10;Service&#9;PSI&#9;JAVA://com.tian.pattern.decorator.PayMsgService&#10;DubboN&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler&#10;ThreadLocal&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Protoco&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.Protocol&#10;ServiceB&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.ServiceBean&#10;injectExtension&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader#injectExtension&#10;ThreadLo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;doExportUrlsFor1Protocol&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.ServiceConfig#doExportUrlsFor1Protocol&#10;com.mysql.jdbc.Driver&#9;PSI&#9;JAVA://com.mysql.jdbc.Driver&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Thread.class&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java&#10;LinkedBlockingQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayBl&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;NettyTran&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty.NettyTransporter&#10;DiscardPolicy&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor.DiscardPolicy&#10;RejectedExecutionHandler&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/RejectedExecutionHandler.java&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Execut&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java&#10;Executo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -666,31 +664,33 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources\mapper" />
-      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources" />
-      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources\mapper\user" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tian.config" />
+      <recent name="com.tian.concurrent" />
+      <recent name="com.tian.concurrent.executors" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tian" />
       <recent name="com.tian.springbootdemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sourcecode\mycode\springmvc4tian\dubbo-client\src\main\java\com\tian" />
+      <recent name="D:\sourcecode\mycode\springmvc4tian\dubbo-api\src\main\java\com\tian" />
       <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring\src\main" />
       <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\spring-boot-demo\src\main\resources\static\css" />
       <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\spring-boot-demo\src\main\resources\templates" />
-      <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring\src\main\resoures" />
-      <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring\src\main\resoures\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tian.service" />
       <recent name="com.tian.pattern.template" />
       <recent name="com.tian.pattern.decorator" />
       <recent name="com.tian" />
       <recent name="com.tian.concurrent" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tian.config" />
-      <recent name="com.tian.concurrent" />
-      <recent name="com.tian.concurrent.executors" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources\mapper" />
+      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources" />
+      <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources\mapper\user" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -811,7 +811,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -821,6 +821,25 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjw.zookeeper.application.Application" />
       <module name="custom-spring" />
+      <envs />
+    </configuration>
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tian.ClientDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dubbo-client" />
       <envs />
     </configuration>
     <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -842,14 +861,14 @@
       <module name="design-pattern" />
       <envs />
     </configuration>
-    <configuration name="DecoratedWindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tian.pattern.decorator.demo.*" />
+          <option name="PATTERN" value="com.tian.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tian.pattern.decorator.demo.DecoratedWindowTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tian.ServerDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -858,26 +877,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design-pattern" />
-      <envs />
-    </configuration>
-    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tian.pattern.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tian.pattern.decorator.DecoratorDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design-pattern" />
+      <module name="dubbo-server" />
       <envs />
     </configuration>
     <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -988,19 +988,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DecoratedWindowTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ClientTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DecoratorDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClientTest" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ServerDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ClientDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ClientTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DecoratorDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DecoratedWindowTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1273,42 +1273,66 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212728000" />
+    <option name="totallyTimeSpent" value="226999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43042454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51990634" sideWeight="0.5021482" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5330189" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37146226" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5731132" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23972602" sideWeight="0.5045386" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17549168" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33282906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48801368" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.098726116" sideWeight="0.49546143" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37157536" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38869864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51990634" sideWeight="0.5021482" order="17" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44103774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3903302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43042454" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44103774" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5330189" sideWeight="0.49785176" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37146226" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5731132" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1385,280 +1409,198 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/DecoratedWindowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/ConcretComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/DecoratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/ConcreteDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/VerticalScrollBarDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/WindowDecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/HorizontalScrollBarDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/WindowDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/SimpleWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.5/dubbo-2.6.5-sources.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/consumer/src/main/java/com/tian/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/provider/src/main/resources/provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/provider/src/main/java/com/tian/service/impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/dao/mapper/GoodsDao.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.4.RELEASE/spring-boot-starter-web-2.0.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/dao/domain/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/resources/mapper/GoodsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="946" column="30" lean-forward="false" selection-start-line="946" selection-start-column="23" selection-end-line="946" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/dao/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/resources/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/PeopleBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/Student.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/api/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/bind/annotation/ModelAttribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/dubbo-server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0.jar!/org/apache/curator/framework/api/ProtectACLCreateModePathAndBytesable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/api/ProtectACLCreateModePathAndBytesable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/CuratorFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/api/ACLCreateModeBackgroundPathAndBytesable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/api/CreateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/IRegistryCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/RegistryCenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tian/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.jar!/com/tian/rpc/IHelloService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCacheEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCacheListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -1666,98 +1608,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/resoures/xml/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/SpringBootDemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="91">
+          <caret line="387" column="0" lean-forward="false" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/TestConnect.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCache.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="127">
+          <caret line="471" column="0" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="85" column="32" lean-forward="false" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        <state relative-caret-position="378">
+          <caret line="60" column="71" lean-forward="true" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/AppMain.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="146">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/MyNamespaceHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="69" column="88" lean-forward="false" selection-start-line="69" selection-start-column="88" selection-end-line="69" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/tian/StudentBeanDefinitionParser.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ReflectiveChannelFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="107">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/dao/impl/UserDaoImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../zookeeper-manage-center/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar!/org/jboss/netty/handler/execution/ExecutionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="112" selection-end-column="10" />
+        <state relative-caret-position="-1411">
+          <caret line="108" column="13" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/ClassResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/CachingClassResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="257" column="24" lean-forward="false" selection-start-line="257" selection-start-column="11" selection-end-line="257" selection-end-column="24" />
+          <folding>
+            <element signature="e#8950#8951#0" expanded="false" />
+            <element signature="e#9020#9021#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="57" />
+          <folding>
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#2875#3899#0" expanded="true" />
+            <element signature="e#3898#3899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="100" column="32" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-spring/src/main/java/com/xjw/zookeeper/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1084">
+          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>

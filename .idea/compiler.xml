@@ -11,6 +11,9 @@
         <module name="custom-spring" />
         <module name="data-structure" />
         <module name="design-pattern" />
+        <module name="dubbo-api" />
+        <module name="dubbo-client" />
+        <module name="dubbo-server" />
         <module name="mvc" />
         <module name="provider" />
         <module name="sk-system" />
@@ -23,6 +26,9 @@
       <module name="custom-spring" target="1.7" />
       <module name="data-structure" target="1.8" />
       <module name="design-pattern" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-client" target="1.8" />
+      <module name="dubbo-server" target="1.8" />
       <module name="lawt-web" target="1.7" />
       <module name="mvc" target="1.8" />
       <module name="my-jvm" target="1.7" />
