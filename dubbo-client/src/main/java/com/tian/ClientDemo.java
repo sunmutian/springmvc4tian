@@ -14,7 +14,12 @@ public class ClientDemo {
     public static void main(String[] args) {
         IServiceDiscovery registryCenter = new ServiceDiscoveryImpl();
         RpcClientProxy clientProxy = new RpcClientProxy(registryCenter);
+        System.out.println("客户端发起远程调用");
         IHelloService helloService = clientProxy.create(IHelloService.class);
-        System.out.println(helloService.sayHello("手写dubbo demo成功"));
+        if (helloService == null) {
+            System.out.println("未找到服务，动态代理失败");
+            return;
+        }
+        System.out.println(helloService.sayHello("调用成功"));
     }
 }

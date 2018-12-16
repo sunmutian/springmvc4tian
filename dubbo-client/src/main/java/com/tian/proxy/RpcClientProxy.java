@@ -1,6 +1,8 @@
 package com.tian.proxy;
 
+import com.tian.bean.Address;
 import com.tian.bean.Request;
+import com.tian.netty.NettyClient;
 import com.tian.registry.IServiceDiscovery;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
@@ -12,6 +14,7 @@ import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
+import io.netty.util.internal.StringUtil;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -30,63 +33,53 @@ public class RpcClientProxy {
     }
 
     //动态代理
-    //一定要是通用  interfaceClass   IGpHello.class
+    //一定要是通用  interfaceClass   IHelloService.class
     public <T> T create(final Class<T> interfaceClass) {
         return (T) Proxy.newProxyInstance(interfaceClass.getClassLoader(),
                 new Class<?>[]{interfaceClass}, new InvocationHandler() {
-                    //这里实际上是封装RpcRequest请求对象，然后通过Netty发给服务端
+                    //这里实际上是封装Request请求对象，然后通过Netty发给服务端
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         //封装RpcRequest对象---->
-                        Request request = new Request();
-                        request.setClassName(method.getDeclaringClass().getName());
-                        request.setMethodName(method.getName());
-                        request.setTypes(method.getParameterTypes());
-                        request.setParams(args);
-
-                        //服务发现，因为接下来需要进行通信了，IGpService
+                        Request request = getRequestParams(method, args);
+                        //服务发现，因为接下来需要进行通信了，IHelloService
                         String serviceName = interfaceClass.getName();
-                        //url 地址
-                        String serviceAddress = serviceDiscovery.discover(serviceName);
-
-                        //解析host和ip
-                        String[] arrs = serviceAddress.split(":");
-                        String host = arrs[0];
-                        int port = Integer.parseInt(arrs[1]);
-                        //Socket   Netty连接   Socket(ip,port)------>Netty
-                        //由于是内部类使用所以使用final
-                        final RpcProxyHandler rpcProxyHandler = new RpcProxyHandler();
-                        //通过netty的方式进行连接和发送
-                        //用一个线程组
-                        EventLoopGroup group = new NioEventLoopGroup();
-                        try {
-                            Bootstrap b = new Bootstrap();
-                            b.group(group).channel(NioSocketChannel.class).option(ChannelOption.TCP_NODELAY, true)
-                                    .handler(new ChannelInitializer<SocketChannel>() {
-                                        @Override
-                                        protected void initChannel(SocketChannel socketChannel) throws Exception {
-                                            ChannelPipeline pipeline = socketChannel.pipeline();
-                                            pipeline.addLast("frameDecoder", new LengthFieldBasedFrameDecoder(Integer.MAX_VALUE, 0, 4, 0, 4));
-                                            pipeline.addLast("frameEncoder", new LengthFieldPrepender(4));
-                                            pipeline.addLast("encoder", new ObjectEncoder());
-                                            pipeline.addLast("decoder", new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.cacheDisabled(null)));
-                                            //使用netty写到最后就是写Handler的代码
-                                            pipeline.addLast(rpcProxyHandler);
-                                        }
-                                    });
-                            //连接服务地址
-                            ChannelFuture future = b.connect(host, port).sync();
-                            //将封装好的request对象--->服务端
-                            future.channel().writeAndFlush(request);
-                            future.channel().closeFuture().sync();
-                        } catch (Exception e) {
-
-                        } finally {
-                            group.shutdownGracefully();
+                        //通过负载均衡算法和serviceName获取远程调用的url地址
+                        String url = serviceDiscovery.discover(serviceName);
+                        //url解析
+                        Address address = analyzeAddress(url);
+                        if (address == null) {
+                            return null;
                         }
-                        //服务端写返回来的数据
-                        return rpcProxyHandler.getResponse();
+                        //发起调用，并收到返回消息
+                        return NettyClient.getResponseMsg(request, address.getHost(), address.getPort());
                     }
                 });
+    }
+
+    /**
+     * 请求参数
+     */
+    private Request getRequestParams(Method method, Object[] args) {
+        Request request = new Request();
+        request.setClassName(method.getDeclaringClass().getName());
+        request.setMethodName(method.getName());
+        request.setTypes(method.getParameterTypes());
+        request.setParams(args);
+        return request;
+    }
+
+    /**
+     * 因为我们这里是手写的，所以url是比较交单的127.0.0.1：:880
+     * 解析host和ip
+     */
+    private Address analyzeAddress(String url) {
+        if (StringUtil.isNullOrEmpty(url)) {
+            return null;
+        }
+        String[] arrays = url.split(":");
+        String host = arrays[0];
+        int port = Integer.parseInt(arrays[1]);
+        return new Address(host, port);
     }
 }
