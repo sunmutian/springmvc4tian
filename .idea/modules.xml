@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tdubbo/api/api.iml" filepath="$PROJECT_DIR$/tdubbo/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/consumer/consumer.iml" filepath="$PROJECT_DIR$/tdubbo/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-spring/custom-spring.iml" filepath="$PROJECT_DIR$/custom-spring/custom-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structure/data-structure.iml" filepath="$PROJECT_DIR$/data-structure/data-structure.iml" />
