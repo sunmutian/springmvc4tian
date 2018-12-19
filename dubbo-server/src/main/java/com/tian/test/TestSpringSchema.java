@@ -1,5 +1,6 @@
 package com.tian.test;
 
+import com.tian.config.Service;
 import com.tian.config.ZookeeperConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -12,5 +13,7 @@ public class TestSpringSchema {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:xml/application.xml");
         ZookeeperConfig zookeeper = (ZookeeperConfig) ctx.getBean("zookeeperConfig");
         System.out.println(zookeeper);
+        Service service = (Service) ctx.getBean("service1");
+        System.out.println(service);
     }
 }

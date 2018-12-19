@@ -25,4 +25,27 @@
             </xsd:complexContent>
         </xsd:complexType>
     </xsd:element>
+    <xsd:element name="service">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="beans:identifiedType">
+                    <xsd:attribute name="className" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>类全限定名</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="methodName" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>方法名</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="version" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>版本号</xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
 </xsd:schema>

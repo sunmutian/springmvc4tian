@@ -5,4 +5,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.pomelo.com/schema/dubbo http://www.pomelo.com/schema/dubbo.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
 
     <dubbo:config id="zookeeperConfig" host="127.0.0.1" port="8080"/>
+    <dubbo:service id="service1" className="com.tian.service.HelloServiceImpl" methodName="sayHello" version="1.0.0"/>
 </beans>
