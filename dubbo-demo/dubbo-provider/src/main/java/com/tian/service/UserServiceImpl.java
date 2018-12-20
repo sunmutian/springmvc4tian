@@ -1,11 +1,12 @@
 package com.tian.service;
 
 /**
- * @author tianweichang
+ * @author teanvc
  */
 public class UserServiceImpl implements UserService {
     @Override
     public String getUserById(int userId) {
-        return null;
+        System.out.println("userId=" + userId);
+        return "teanvc userId=" + userId;
     }
 }

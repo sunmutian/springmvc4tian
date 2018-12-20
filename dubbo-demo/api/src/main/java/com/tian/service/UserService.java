@@ -1,7 +1,7 @@
 package com.tian.service;
 
 /**
- * @author tianweichang
+ * @author teanvc
  */
 public interface UserService {
     String getUserById(int userId);
