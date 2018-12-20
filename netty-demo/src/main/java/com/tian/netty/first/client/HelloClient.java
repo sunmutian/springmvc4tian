@@ -10,11 +10,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 启动好了就可以在控制台输入内容，然后回车键
+ * @author lawt
+ */
 public class HelloClient {
     public static String host = "127.0.0.1";
     public static int port = 8081;
 
     /**
+     *
      * @param args
      * @throws InterruptedException
      * @throws IOException
@@ -32,7 +37,7 @@ public class HelloClient {
 
             // 控制台输入
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-            for (;;) {
+            for (; ; ) {
                 String line = in.readLine();
                 if (line == null) {
                     continue;

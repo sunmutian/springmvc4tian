@@ -6,19 +6,30 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
+/**
+ * 服务端启动类
+ *
+ * @author lawt
+ */
 public class HelloServer {
+    /**
+     * 服务端端口
+     */
     private static final int port = 8081;
 
     public static void main(String[] args) {
+
+        //一个是boss线程一个是worker线程
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
+
         try {
             ServerBootstrap b = new ServerBootstrap();
             b.group(bossGroup, workerGroup);
             b.channel(NioServerSocketChannel.class);
             b.childHandler(new HelloServerInitializer());
 
-            // 服务器绑定端口监听
+            // 绑定端口监听
             ChannelFuture f = b.bind(port).sync();
             // 监听服务器关闭监听
             f.channel().closeFuture().sync();

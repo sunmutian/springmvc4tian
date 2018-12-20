@@ -7,6 +7,8 @@ import java.net.InetAddress;
 
 /**
  * 业务处理对接
+ *
+ * @author lawt
  */
 public class HelloServerHandler extends SimpleChannelInboundHandler<String> {
 
@@ -28,7 +30,8 @@ public class HelloServerHandler extends SimpleChannelInboundHandler<String> {
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
 
         System.out.println("RamoteAddress : " + ctx.channel().remoteAddress() + " active !");
-
+        //注意:字符串最后面的"\n"是必须的。因为我们在前面的解码器DelimiterBasedFrameDecoder
+        // 是一个根据字符串结尾为“\n”来结尾的。假如没有这个字符的话。解码会出现问题。
         ctx.writeAndFlush("Welcome to " + InetAddress.getLocalHost().getHostName() + " service!\n");
         super.channelActive(ctx);
     }
