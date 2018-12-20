@@ -6,8 +6,9 @@ import java.io.IOException;
 
 /**
  * Hello world!
+ * @author lawt
  */
-public class App {
+public class ProviderMain {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("provider.xml");
         ctx.start();
