@@ -1,15 +1,17 @@
 package com.tian.config;
 
 /**
- * @author tianweichang
+ * 服务地址和端口
+ *
+ * @author lawt
  */
-public class ZookeeperConfig {
+public class ServerAddresses {
     private String host;
     private int port;
 
     @Override
     public String toString() {
-        return "ZookeeperConfig{" +
+        return "ServerAddresses{" +
                 "host='" + host + '\'' +
                 ", port=" + port +
                 '}';

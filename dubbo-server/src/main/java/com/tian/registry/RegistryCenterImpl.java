@@ -6,9 +6,9 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
 
 /**
- * @auther: tianweichang
+ * @author: lawt
  * @date: 2018/12/15 21
- * @Description: 链接zk，然后把
+ * @Description: 链接zk，然后把服务注册到注册中心zk上
  */
 public class RegistryCenterImpl implements IRegistryCenter {
     private CuratorFramework curatorFramework;

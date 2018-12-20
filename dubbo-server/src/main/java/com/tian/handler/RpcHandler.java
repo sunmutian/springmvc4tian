@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/12/16 00
- * @Description:
+ * @Description: 接收到客户端请求数据并处理
  */
 public class RpcHandler extends ChannelInboundHandlerAdapter {
     private Map<String, Object> handlerMap = new HashMap<>();

@@ -1,7 +1,7 @@
 package com.tian.bean;
 
+import com.tian.config.ServerAddresses;
 import com.tian.config.Service;
-import com.tian.config.ZookeeperConfig;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils;
@@ -21,7 +21,7 @@ public class DubboBeanDefinitionParser extends AbstractSingleBeanDefinitionParse
     }
 
     protected void doParse(Element element, BeanDefinitionBuilder bean, Class<?> beanClass) {
-        if (ZookeeperConfig.class.equals(beanClass)) {
+        if (ServerAddresses.class.equals(beanClass)) {
             String host = element.getAttribute("host");
             if (!StringUtils.isEmpty(host)) {
                 bean.addPropertyValue("host", host);

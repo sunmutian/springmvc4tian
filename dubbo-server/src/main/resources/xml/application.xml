@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://www.pomelo.com/schema/dubbo"
-       xmlns:cache="http://www.springframework.org/schema/cache" xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.pomelo.com/schema/dubbo http://www.pomelo.com/schema/dubbo.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.pomelo.com/schema/dubbo http://www.pomelo.com/schema/dubbo.xsd ">
 
-    <dubbo:config id="zookeeperConfig" host="127.0.0.1" port="20880"/>
+    <!--<dubbo:config id="serverAddresses" host="127.0.0.1,192.168.1.13" port="20880"/>-->
+    <dubbo:config id="serverAddresses" host="127.0.0.1" port="20880"/>
     <dubbo:service id="service1" className="com.tian.service.HelloServiceImpl" methodName="sayHello" version="1.0.0"/>
 </beans>
