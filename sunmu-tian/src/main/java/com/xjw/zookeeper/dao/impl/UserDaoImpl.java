@@ -2,7 +2,6 @@ package com.xjw.zookeeper.dao.impl;
 
 import com.xjw.zookeeper.dao.UserDao;
 import com.xjw.zookeeper.entity.User;
-import com.xjw.zookeeper.entity.ZkServerInfo;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.stereotype.Repository;

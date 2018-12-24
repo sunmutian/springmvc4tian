@@ -4,18 +4,11 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.zookeeper.CreateMode;
-import org.apache.zookeeper.KeeperException;
-import org.apache.zookeeper.WatchedEvent;
-import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.Watcher.Event.EventType;
-import org.apache.zookeeper.Watcher.Event.KeeperState;
-import org.apache.zookeeper.ZooDefs.Ids;
-import org.apache.zookeeper.ZooKeeper;
-import org.apache.zookeeper.data.Stat;
 
 import com.xjw.zookeeper.entity.NodeData;
 import com.xjw.zookeeper.enums.NodeModelEnum;
+import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.Stat;
 
 /**      
  * 项目名称：zookeeper  
@@ -31,7 +24,7 @@ import com.xjw.zookeeper.enums.NodeModelEnum;
  * 修改备注：   
  * @version    
  */
-public class ZookeeperClient implements Watcher{
+public class ZookeeperClient implements Watcher {
 	/**
 	 * 实例
 	 */
@@ -148,7 +141,7 @@ public class ZookeeperClient implements Watcher{
 	 */
 	public String create(String path, byte data[],
 	            CreateMode createMode) throws KeeperException, InterruptedException{
-		String result = zookeeper.create(path, data, Ids.OPEN_ACL_UNSAFE, createMode);  
+		String result = zookeeper.create(path, data, ZooDefs.Ids.OPEN_ACL_UNSAFE, createMode);
 		return result;
 	}
 	/**
@@ -159,17 +152,17 @@ public class ZookeeperClient implements Watcher{
 		if (event == null) 
 			return; 
 		//成功连接服务器
-		if (KeeperState.SyncConnected == event.getState()) {  
-            if (EventType.None == event.getType()) {  
+		if (Event.KeeperState.SyncConnected == event.getState()) {
+            if (Event.EventType.None == event.getType()) {
                 System.out.println("zookeeper connect success"); 
                 //成功连接，计数器-1
                 connectedLatch.countDown();  
             }  
-        } else if (KeeperState.Disconnected == event.getState()) {  
+        } else if (Event.KeeperState.Disconnected == event.getState()) {
             System.out.println("zookeeper Disconnected");  
-        } else if (KeeperState.AuthFailed == event.getState()) {  
+        } else if (Event.KeeperState.AuthFailed == event.getState()) {
             System.out.println("zookeeper AuthFailed");  
-        } else if (KeeperState.Expired == event.getState()) {  
+        } else if (Event.KeeperState.Expired == event.getState()) {
             System.out.println("zookeeper Expired");  
         }  
 		

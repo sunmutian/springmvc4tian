@@ -8,29 +8,14 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.ViewResolver;
 
 import com.xjw.zookeeper.client.ZookeeperClient;
 import com.xjw.zookeeper.systemconfig.SystemConfig;
 import com.xjw.zookeeper.systemconfig.ZookeeperConfig;
 import com.xjw.zookeeper.util.ZookeeperUtil;
 import com.xjw.zookeeper.viewresolver.JsonViewResolver;
+import org.springframework.web.servlet.ViewResolver;
 
-/**
- * 
- * 项目名称：spring  
- * 实现功能： 应用主入口 
- * 类名称：Application   
- * 类描述：(该类的主要功能)
- * 创建人：徐纪伟 
- * E-mail: 289045706@qq.com
- * 创建时间：2016-12-14下午04:50:41   
- * 修改人：   
- * 修改时间：   
- * 版权 :
- * 修改备注：   
- * @version
- */
 @EnableAutoConfiguration
 @Configuration
 @ComponentScan("com.xjw.zookeeper")//指定扫描包
