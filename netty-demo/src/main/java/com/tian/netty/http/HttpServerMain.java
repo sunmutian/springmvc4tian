@@ -20,7 +20,8 @@ public class HttpServerMain {
         NioEventLoopGroup worker = new NioEventLoopGroup();
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();
-            bootstrap.group(boss, worker).channel(NioServerSocketChannel.class)
+            bootstrap.group(boss, worker)
+                    .channel(NioServerSocketChannel.class)
                     .childHandler(new HttpServerInitializer());
             //绑定端口
             ChannelFuture channelFuture = bootstrap.bind(8888).sync();

@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/api/api.iml" filepath="$PROJECT_DIR$/dubbo-demo/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/consumer/consumer.iml" filepath="$PROJECT_DIR$/tdubbo/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-spring/custom-spring.iml" filepath="$PROJECT_DIR$/custom-spring/custom-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structure/data-structure.iml" filepath="$PROJECT_DIR$/data-structure/data-structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-client/dubbo-client.iml" filepath="$PROJECT_DIR$/dubbo-client/dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-server/dubbo-server.iml" filepath="$PROJECT_DIR$/dubbo-server/dubbo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/lawt-web.iml" filepath="$PROJECT_DIR$/lawt-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-jvm.iml" filepath="$PROJECT_DIR$/my-jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdubbo/provider/provider.iml" filepath="$PROJECT_DIR$/tdubbo/provider/provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/sk-system/sk-system.iml" filepath="$PROJECT_DIR$/sk-system/sk-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/12/15 23
  * @Description: 请求参数
  */

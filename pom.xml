@@ -19,6 +19,8 @@
         <module>dubbo-server</module>
         <module>dubbo-client</module>
         <module>dubbo-api</module>
+        <module>dubbo-demo</module>
+        <module>netty-demo</module>
     </modules>
 
     <name>lawt-web</name>

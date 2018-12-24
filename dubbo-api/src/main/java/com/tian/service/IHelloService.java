@@ -1,9 +1,9 @@
 package com.tian.service;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/12/15 22
- * @Description:
+ * @Description: 接口
  */
 public interface IHelloService {
     String sayHello(String msg);

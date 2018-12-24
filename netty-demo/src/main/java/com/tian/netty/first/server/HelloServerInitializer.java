@@ -14,12 +14,18 @@ import io.netty.handler.codec.string.StringEncoder;
  */
 public class HelloServerInitializer extends ChannelInitializer<SocketChannel> {
 
+    /**
+     * 连接后立即执行这个方法
+     */
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
-
+        /**
+         * 相当于拦截器
+         */
         // 以("\n")为结尾分割的 解码器
-        pipeline.addLast("framer", new DelimiterBasedFrameDecoder(8192, Delimiters.lineDelimiter()));
+        pipeline.addLast("framer", new DelimiterBasedFrameDecoder(
+                8192, Delimiters.lineDelimiter()));
 
         // 字符串解码 和 编码
         pipeline.addLast("decoder", new StringDecoder());

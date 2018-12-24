@@ -3,7 +3,7 @@ package com.tian.bean;
 import java.io.Serializable;
 
 /**
- * @auther: tianweichang
+ * @auther: lawt
  * @date: 2018/12/16 20
  * @Description: 地址信息
  */

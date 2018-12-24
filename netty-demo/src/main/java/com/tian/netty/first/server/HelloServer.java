@@ -15,7 +15,7 @@ public class HelloServer {
     /**
      * 服务端端口
      */
-    private static final int port = 8081;
+    private static final int PORT = 8081;
 
     public static void main(String[] args) {
 
@@ -30,7 +30,7 @@ public class HelloServer {
             b.childHandler(new HelloServerInitializer());
 
             // 绑定端口监听
-            ChannelFuture f = b.bind(port).sync();
+            ChannelFuture f = b.bind(PORT).sync();
             // 监听服务器关闭监听
             f.channel().closeFuture().sync();
 

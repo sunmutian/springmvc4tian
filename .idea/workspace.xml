@@ -1,12 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64dcd264-d3c1-4e8e-a524-25efc1adab51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" id="64dcd264-d3c1-4e8e-a524-25efc1adab51" name="Default" comment="my dubbo code review">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/JavaVMStackOOM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/JavaVMStackSOF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/MethodAreaOOM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/TestXSS.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/SimpleWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/WindowDecoratorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/src/main/java/com/tian/serverribbon/HelloControler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/src/main/java/com/tian/serverribbon/HelloService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/src/main/java/com/tian/serverribbon/ServerRibbonApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/server-ribbon/src/test/java/com/tian/serverribbon/ServerRibbonApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/src/main/java/com/tian/springcloudclient/SpringCloudClientApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-client/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/src/main/java/com/tian/springcloudserver/SpringCloudServerApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-server/src/test/java/com/tian/springcloudserver/SpringCloudServerApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/com/tian/mvc/SpringBootMvcApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/com/tian/mvc/controller/IndexController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" afterPath="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-jvm.iml" afterPath="$PROJECT_DIR$/my-jvm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/pom.xml" afterPath="$PROJECT_DIR$/netty-demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClient.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientHandler.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientInitializer.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServer.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerHandler.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerInitializer.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerHandler.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerMain.java" afterPath="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-demo/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" afterPath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/tdubbo/target/" />
     <ignored path="$PROJECT_DIR$/tdubbo/api/target/" />
@@ -23,6 +102,11 @@
     <ignored path="$PROJECT_DIR$/dubbo-server/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-client/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo/api/target/" />
+    <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +126,25 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RpcClientProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AbstractServer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+            <state relative-caret-position="814">
+              <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+              <folding>
+                <element signature="e#6444#6445#0" expanded="true" />
+                <element signature="e#6478#6479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServerMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +152,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java">
+      <file leaf-file-name="ServerBootstrap.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="132">
+              <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+              <folding>
+                <element signature="e#9030#9031#0" expanded="true" />
+                <element signature="e#9104#9105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServerInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,98 +197,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java">
+      <file leaf-file-name="HttpServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IHelloService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractLoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
+      <file leaf-file-name="HelloServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadBalance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
+      <file leaf-file-name="HelloServerInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="78" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1364#2295#0" expanded="true" />
-                <element signature="e#2294#2295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -175,15 +241,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>threadLocals</find>
-      <find>threshold</find>
-      <find>insert</find>
-      <find>extract</find>
-      <find>takeIndex</find>
-      <find>acquireQueued</find>
-      <find>shouldParkAfterFailedAcquire</find>
-      <find>addWaiter</find>
-      <find>nofairTryAcquire</find>
       <find>TianSpringMVC</find>
       <find>doAcquireSharedInterruptibly</find>
       <find>doReleaseShared</find>
@@ -194,7 +251,6 @@
       <find>threadLocal</find>
       <find>java.lang.ThreadLocal.</find>
       <find>pople</find>
-      <find>people</find>
       <find>agan</find>
       <find>test</find>
       <find>intern</find>
@@ -205,12 +261,28 @@
       <find>equals</find>
       <find>hashcod</find>
       <find>Gupao</find>
+      <find>init</find>
+      <find>eric-lin</find>
+      <find>4.3.16.RELEASE</find>
+      <find>publicId</find>
+      <find>user</find>
+      <find>http://www.pomelo.com/schema/people.xsd</find>
+      <find>people</find>
+      <find>student</find>
+      <find>complexType</find>
+      <find>identifiedType</find>
     </findStrings>
+    <replaceStrings>
+      <replace>lawt</replace>
+      <replace>3.2.4.RELEASE</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring</dir>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\custom-spring\src</dir>
       <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\spring-boot-demo\src\main\resources</dir>
       <dir>D:\sourcecode\mycode\springmvc4tian</dir>
+      <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\dubbo-server\src\main\resources</dir>
+      <dir>E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\dubbo-server</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -224,57 +296,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/ConcreteDecorator.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/ClientTest.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayServiceImpl.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayService.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgService.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/PayMsgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/base/Decorator.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/WindowDecoratorTest.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/tian/pattern/decorator/demo/SimpleWindow.java" />
-        <option value="$PROJECT_DIR$/tdubbo/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/tdubbo/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/MyNamespaceHandler.java" />
-        <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/PeopleBeanDefinitionParser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/tian/springbootdemo/util/TestConnect.java" />
-        <option value="$PROJECT_DIR$/spring-boot-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/StudentBeanDefinitionParser.java" />
-        <option value="$PROJECT_DIR$/custom-spring/src/main/java/com/tian/AppMain.java" />
-        <option value="$PROJECT_DIR$/custom-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/RpcAnnotation.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/api/IHelloService.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/api/impl/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/IRegistryCenter.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/spring.handlers" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/people.xsd" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/spring.schemas" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/ClassHelper.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/dubbo.xsd" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/bean/DubboNamespaceHandler.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/test/TestSpringSchema.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/Service.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/bean/DubboBeanDefinitionParser.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/com/tian/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/com/tian/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/api/src/main/java/com/tian/service/UserService.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/com/tian/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/com/tian/ProviderMain.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/com/tian/ConsumerMain.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/HelloServer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/HelloServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/HelloServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClient.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/client/HelloClientInitializer.java" />
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-client/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IRegistryCenter.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/App.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/App.java" />
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java" />
-        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java" />
         <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/ZookeeperConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/ServerAddresses.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java" />
         <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java" />
-        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/main/DubboServerMain.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/xml/application.xml" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/MyHttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/Server.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/ServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerMain.java" />
       </list>
     </option>
   </component>
@@ -303,10 +375,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="734" />
-    <option name="y" value="8" />
-    <option name="width" value="633" />
-    <option name="height" value="728" />
+    <option name="x" value="811" />
+    <option name="y" value="500" />
+    <option name="width" value="1080" />
+    <option name="height" value="585" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -404,7 +476,7 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -421,169 +493,132 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tian" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tian" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tian" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tian" type="462c0819:PsiDirectoryNode" />
-              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc4tian" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TianSpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.tian:api:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ChannelIn&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;Component&#9;PSI&#9;JAVA://org.springframework.stereotype.Component&#10;Compon&#9;PSI&#9;JAVA://java.awt.Component&#10;Service&#9;PSI&#9;JAVA://com.tian.pattern.decorator.PayMsgService&#10;DubboN&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler&#10;ThreadLocal&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Protoco&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.Protocol&#10;ServiceB&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.ServiceBean&#10;injectExtension&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader#injectExtension&#10;ThreadLo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;doExportUrlsFor1Protocol&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.ServiceConfig#doExportUrlsFor1Protocol&#10;com.mysql.jdbc.Driver&#9;PSI&#9;JAVA://com.mysql.jdbc.Driver&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Thread.class&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java&#10;LinkedBlockingQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayBl&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;NettyTran&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty.NettyTransporter&#10;DiscardPolicy&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor.DiscardPolicy&#10;RejectedExecutionHandler&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/RejectedExecutionHandler.java&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Execut&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java&#10;Executo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java" />
+    <property name="SearchEverywhereHistoryKey" value="DubboNa&#9;FILE&#9;jar://C:/Users/tianweichang/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.class&#10;*Wrapper&#9;FILE&#9;jar://C:/Users/tianweichang/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/client/MessageBodyClientHttpResponseWrapper.class&#10;*Decorator&#9;FILE&#9;jar://C:/Users/tianweichang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/bag/AbstractBagDecorator.class&#10;SessionFactory &#9;PSI&#9;JAVA://org.springframework.web.context.support.WebApplicationContextUtils.SessionObjectFactory&#10;ApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;ChannelIn&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;Component&#9;PSI&#9;JAVA://org.springframework.stereotype.Component&#10;Compon&#9;PSI&#9;JAVA://java.awt.Component&#10;Service&#9;PSI&#9;JAVA://com.tian.pattern.decorator.PayMsgService&#10;DubboN&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler&#10;ThreadLocal&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Protoco&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.Protocol&#10;ServiceB&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.ServiceBean&#10;injectExtension&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader#injectExtension&#10;ThreadLo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java&#10;doExportUrlsFor1Protocol&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.ServiceConfig#doExportUrlsFor1Protocol&#10;com.mysql.jdbc.Driver&#9;PSI&#9;JAVA://com.mysql.jdbc.Driver&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/Thread.class&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java&#10;LinkedBlockingQueue&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayBl&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;NettyTran&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty.NettyTransporter&#10;DiscardPolicy&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor.DiscardPolicy&#10;RejectedExecutionHandler&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/RejectedExecutionHandler.java&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Execut&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java&#10;Executo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="E:/myworkspace/mic-vip-master/2018/20180613-dubbo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -595,9 +630,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tian.netty.http" />
+      <recent name="com.tian.netty.first.client" />
+      <recent name="com.tian.netty.first" />
       <recent name="com.tian.config" />
       <recent name="com.tian.concurrent" />
-      <recent name="com.tian.concurrent.executors" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tian" />
@@ -611,11 +648,11 @@
       <recent name="E:\mystudy\otherCode\TianSpringMVC\springmvc4tian\spring-boot-demo\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tian.config" />
+      <recent name="com.tian.bean" />
       <recent name="com.tian.service" />
       <recent name="com.tian.pattern.template" />
       <recent name="com.tian.pattern.decorator" />
-      <recent name="com.tian" />
-      <recent name="com.tian.concurrent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sourcecode\mycode\springmvc4tian\spring-boot-demo\src\main\resources\mapper" />
@@ -626,6 +663,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8089" />
@@ -741,26 +798,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.xjw.zookeeper.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjw.zookeeper.application.Application" />
-      <module name="custom-spring" />
-      <envs />
-    </configuration>
-    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HttpServerMain">
+    <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.tian.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tian.ClientDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.tian.ConsumerMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -769,17 +815,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dubbo-client" />
+      <module name="dubbo-consumer" />
       <envs />
     </configuration>
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tian.pattern.decorator.base.*" />
+          <option name="PATTERN" value="com.tian.netty.first.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tian.pattern.decorator.base.ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tian.netty.first.client.HelloClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -788,7 +834,45 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design-pattern" />
+      <module name="netty-demo" />
+      <envs />
+    </configuration>
+    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tian.netty.first.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tian.netty.first.server.HelloServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="netty-demo" />
+      <envs />
+    </configuration>
+    <configuration name="HttpServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tian.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tian.netty.http.HttpServerMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="netty-demo" />
       <envs />
     </configuration>
     <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -814,25 +898,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.springbootdemo.SpringBootDemoApplication" />
       <module name="spring-boot-demo" />
-      <envs />
-    </configuration>
-    <configuration name="WindowDecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tian.pattern.decorator.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tian.pattern.decorator.demo.WindowDecoratorTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design-pattern" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -928,21 +993,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="api" />
+      <envs />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ClientTest" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ConsumerMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HelloServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloClient" />
       <item index="4" class="java.lang.String" itemvalue="Application.ServerDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ClientDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.HttpServerMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ClientDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HttpServerMain" />
         <item index="1" class="java.lang.String" itemvalue="Application.ServerDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WindowDecoratorTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ClientTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ConsumerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -993,6 +1070,8 @@
       <workItem from="1543818793709" duration="20440000" />
       <workItem from="1544405139946" duration="4143000" />
       <workItem from="1544529654897" duration="715000" />
+      <workItem from="1545114411805" duration="40399000" />
+      <workItem from="1545622226495" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1536375105952</created>
@@ -1232,103 +1311,197 @@
       <option name="project" value="LOCAL" />
       <updated>1544962628604</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="加入自定义spring---xsd">
+      <created>1545181821232</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1545181821232</updated>
+    </task>
+    <task id="LOCAL-00036" summary="配置ip和端口">
+      <created>1545211775270</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1545211775270</updated>
+    </task>
+    <task id="LOCAL-00037" summary="多个配置类的加入">
+      <created>1545213115259</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1545213115259</updated>
+    </task>
+    <task id="LOCAL-00038" summary="my dubbo code review">
+      <created>1545213843774</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1545213843774</updated>
+    </task>
+    <task id="LOCAL-00039" summary="dubbo 演练">
+      <created>1545268834077</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1545268834077</updated>
+    </task>
+    <task id="LOCAL-00040" summary="dubbo demo搭建完成">
+      <created>1545269956027</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1545269956027</updated>
+    </task>
+    <task id="LOCAL-00041" summary="代码优化">
+      <created>1545271339424</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1545271339424</updated>
+    </task>
+    <task id="LOCAL-00042" summary="netty demo 学习工程">
+      <created>1545273036487</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1545273036487</updated>
+    </task>
+    <task id="LOCAL-00043" summary="netty demo 完成">
+      <created>1545274318281</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1545274318281</updated>
+    </task>
+    <task id="LOCAL-00044" summary="netty demo 代码完善">
+      <created>1545275352791</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1545275352791</updated>
+    </task>
+    <task id="LOCAL-00045" summary="代码优化">
+      <created>1545293721168</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1545293721168</updated>
+    </task>
+    <task id="LOCAL-00046" summary="netty 实现http服务，启动好了后使用http://localhost:8888就可以访问并有返回">
+      <created>1545381284410</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1545381284410</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestSpringSchema - 2018.12.19 at 17h 10m 39s.xml">
+      <configuration name="TestSpringSchema" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 25m 46s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 26m 37s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 27m 06s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 28m 38s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 29m 02s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 35m 11s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 41m 35s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 42m 10s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpringSchema_test - 2018.12.19 at 17h 44m 10s.xml">
+      <configuration name="TestSpringSchema.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230272000" />
+    <option name="totallyTimeSpent" value="277107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23972602" sideWeight="0.5045386" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17549168" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51990634" sideWeight="0.5021482" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22532189" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.058962263" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37146226" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4398585" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33282906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48801368" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.098726116" sideWeight="0.49546143" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38869864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.553066" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51990634" sideWeight="0.5021482" order="17" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43042454" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48820755" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44103774" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5330189" sideWeight="0.49785176" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37146226" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5731132" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4740566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51990634" sideWeight="0.5021482" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22532189" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43042454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.553066" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48820755" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44103774" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38443395" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37146226" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5330189" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5731132" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4398585" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38869864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4740566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1340,16 +1513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自定义spring schema demo" />
-    <MESSAGE value="类名称修改" />
-    <MESSAGE value="类添加注释" />
-    <MESSAGE value="代码修改" />
-    <MESSAGE value="nio demo" />
-    <MESSAGE value="spring schema扩展" />
-    <MESSAGE value="swagger" />
-    <MESSAGE value="springboot集成swagger" />
-    <MESSAGE value="类加载" />
-    <MESSAGE value="dubbo服务白名单实现" />
     <MESSAGE value="代码规范化" />
     <MESSAGE value="java基础" />
     <MESSAGE value="swagger首页访问地址" />
@@ -1364,8 +1527,18 @@
     <MESSAGE value="加入数据结构部分" />
     <MESSAGE value="手写dubbo" />
     <MESSAGE value="删除api无用module" />
+    <MESSAGE value="加入自定义spring---xsd" />
+    <MESSAGE value="配置ip和端口" />
+    <MESSAGE value="多个配置类的加入" />
+    <MESSAGE value="my dubbo code review" />
+    <MESSAGE value="dubbo 演练" />
+    <MESSAGE value="dubbo demo搭建完成" />
+    <MESSAGE value="netty demo 学习工程" />
+    <MESSAGE value="netty demo 完成" />
+    <MESSAGE value="netty demo 代码完善" />
     <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
+    <MESSAGE value="netty 实现http服务，启动好了后使用http://localhost:8888就可以访问并有返回" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty 实现http服务，启动好了后使用http://localhost:8888就可以访问并有返回" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1406,449 +1579,393 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/CuratorFramework.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="92" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/api/ACLCreateModeBackgroundPathAndBytesable.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/bean/DubboNamespaceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.5.0/curator-framework-2.5.0-sources.jar!/org/apache/curator/framework/api/CreateBuilder.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/bean/DubboBeanDefinitionParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-698">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="581">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/dubbo.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="638">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/ZookeeperConfig.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/spring.handlers">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="71" lean-forward="true" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/IRegistryCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/registry/RegistryCenterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ZookeeperConfig.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/META-INF/spring.schemas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/tian/api/1.0-SNAPSHOT/api-1.0-SNAPSHOT.jar!/com/tian/rpc/IHelloService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/IServiceDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCacheEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCacheListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="387" column="0" lean-forward="false" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.5.0/curator-recipes-2.5.0.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="471" column="0" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="69" column="88" lean-forward="false" selection-start-line="69" selection-start-column="88" selection-end-line="69" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ReflectiveChannelFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar!/org/jboss/netty/handler/execution/ExecutionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1411">
-          <caret line="108" column="13" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/ClassResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/CachingClassResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="257" column="24" lean-forward="false" selection-start-line="257" selection-start-column="11" selection-end-line="257" selection-end-column="24" />
-          <folding>
-            <element signature="e#8950#8951#0" expanded="false" />
-            <element signature="e#9020#9021#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="57" />
-          <folding>
-            <element signature="e#1829#1830#0" expanded="false" />
-            <element signature="e#1873#1874#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/annotation/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/config/ServerAddresses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/consumer/src/main/java/com/tian/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/ZookeeperConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/IRegistryCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tdubbo/provider/src/main/resources/provider.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/registry/RegistryCenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/RandomLoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/registry/ServiceDiscoveryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1364#2295#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/proxy/RpcClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/ClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="704">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/service/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Address.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/handler/RpcHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="656">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/bean/Request.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/main/DubboServerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/tian/service/IHelloService.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/ServerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/xml/application.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/AbstractLoadBalance.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/bootstrap/ServerBootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/tian/rpc/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/netty/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/RpcResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/proxy/jdk/JdkProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/protocol/memcached/MemcachedProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/protocol/redis/RedisProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="166" column="74" lean-forward="false" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/telnet/ListTelnetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/telnet/TelnetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/status/ThreadPoolStatusChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/Codec2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/transport/netty/NettyCodecAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/transport/ServerDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/p2p/support/ServerPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="67" column="38" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/ExchangeServerDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="64" column="35" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/transport/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="93" column="39" lean-forward="false" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3212">
+          <caret line="188" column="6" lean-forward="false" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/InetSocketAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding>
+            <element signature="e#6444#6445#0" expanded="true" />
+            <element signature="e#6478#6479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/tian/loadbalance/LoadBalance.java">
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/first/server/HelloServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="78" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/tian/netty/http/HttpServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar!/io/netty/bootstrap/ServerBootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="e#9030#9031#0" expanded="true" />
+            <element signature="e#9104#9105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
